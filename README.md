@@ -1,6 +1,6 @@
 # Summary:
 
-- I utilized pandas to import a shopping dataset from a CSV file. Subsequently, I previewed the first and last five rows to understand the data.
+- I utilized pandas to import a shopping dataset(which i have downloaded it from kaggle) from a CSV file. Subsequently, I previewed the first and last five rows to understand the data.
 - I examined the shapes, column names and types of my dataset to get a better understanding of the data within it.
 - I acquired the initial row, followed by alternate rows, and eventually the first 7 rows.
 - I inspected the counts and percentages of the missing value in all the columns to see if any data is missing
