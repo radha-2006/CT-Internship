@@ -1,0 +1,44 @@
+order_id,customer_id,product_name,category,size,color,price,quantity,purchase_date,payment_method,customer_age,customer_gender,location,rating
+1001,C001,Men's Slim Fit Jeans,Clothing,M,Blue,49.99,2.0,2024-01-05,Credit Card,28,Male,Mumbai,4.5
+1002,C002,Women's Floral Dress,Clothing,S,Red,35.5,1.0,2024-01-06,UPI,24,Female,Delhi,4.0
+1003,C003,Running Shoes,Footwear,42,White,89.99,1.0,2024-01-07,Debit Card,31,Male,Bangalore,4.8
+1004,C004,Leather Handbag,Accessories,,Brown,120.0,1.0,2024-01-08,Credit Card,35,Female,Chennai,3.9
+1005,C005,Men's T-Shirt,Clothing,L,Black,19.99,3.0,2024-01-09,UPI,22,Male,Hyderabad,4.2
+1006,C006,Sports Bra,Clothing,M,Pink,29.99,2.0,2024-01-10,Cash,27,Female,Pune,4.6
+1007,C007,Formal Trousers,Clothing,32,Navy,55.0,1.0,2024-01-11,Credit Card,40,Male,Kolkata,3.7
+1008,C008,Sunglasses,Accessories,,Black,75.5,,2024-01-12,UPI,29,Female,Mumbai,4.3
+1009,C009,Kids Sneakers,Footwear,34,Red,45.0,1.0,2024-01-13,Debit Card,33,Female,Delhi,4.1
+1010,C010,Woollen Sweater,Clothing,XL,Grey,65.0,2.0,2024-01-14,Credit Card,45,Male,Jaipur,4.7
+1011,C011,Women's Kurti,Clothing,M,Yellow,28.0,3.0,2024-01-15,UPI,26,Female,Lucknow,4.4
+1012,C012,Denim Jacket,Clothing,L,Blue,95.0,1.0,2024-01-16,Credit Card,30,Male,Ahmedabad,4.9
+1013,C013,Ankle Boots,Footwear,38,Brown,110.0,1.0,2024-01-17,Debit Card,28,Female,Bangalore,4.2
+1014,C001,Men's Slim Fit Jeans,Clothing,M,Blue,49.99,2.0,2024-01-05,Credit Card,28,Male,Mumbai,4.5
+1015,C014,Gym Gloves,Accessories,M,Black,,2.0,2024-01-19,Cash,25,Male,Chennai,3.8
+1016,C015,Palazzo Pants,Clothing,S,White,32.0,2.0,2024-01-20,UPI,23,Female,Hyderabad,4.0
+1017,C016,Formal Shirt,Clothing,M,White,42.0,2.0,2024-01-21,Credit Card,38,Male,Delhi,4.5
+1018,C017,Sports Shorts,Clothing,L,Green,22.5,3.0,2024-01-22,UPI,26,Male,Pune,4.1
+1019,C018,Tote Bag,Accessories,,Beige,55.0,1.0,2024-01-23,Debit Card,31,Female,Mumbai,4.6
+1020,C019,Flip Flops,Footwear,40,Blue,15.0,2.0,2024-01-24,Cash,20,Male,Goa,3.5
+1021,C020,Saree,Clothing,Free,Red,150.0,1.0,2024-01-25,Credit Card,42,Female,Varanasi,5.0
+1022,C021,Hoodie,Clothing,XL,Black,58.0,1.0,2024-01-26,UPI,27,Male,Bangalore,4.3
+1023,C022,Silk Scarf,Accessories,,Purple,40.0,2.0,2024-01-27,Credit Card,35,Female,Chennai,4.7
+1024,C023,Basketball Shoes,Footwear,44,White,130.0,,2024-01-28,Debit Card,22,Male,Delhi,4.8
+1025,C024,Night Suit,Clothing,M,Pink,38.0,2.0,2024-01-29,UPI,29,Female,Kolkata,4.2
+1026,C025,Men's Chinos,Clothing,32,Beige,52.0,1.0,2024-01-30,Credit Card,34,Male,Mumbai,4.4
+1027,C026,Crop Top,Clothing,S,White,18.0,3.0,2024-02-01,Cash,21,Female,Pune,3.9
+1028,C027,Loafers,Footwear,41,Brown,78.0,1.0,2024-02-02,UPI,36,Male,Hyderabad,4.5
+1029,C028,Clutch Bag,Accessories,,Gold,65.0,1.0,2024-02-03,Credit Card,30,Female,Jaipur,4.3
+1030,C029,Winter Jacket,Clothing,L,Olive,175.0,1.0,2024-02-04,Debit Card,43,Male,Shimla,4.9
+1031,C030,Yoga Pants,Clothing,M,Black,36.0,2.0,2024-02-05,UPI,28,Female,Bangalore,4.6
+1032,C031,Ethnic Kurta,Clothing,L,Orange,45.0,2.0,2024-02-06,Credit Card,39,Male,Lucknow,4.1
+1033,C032,Wedge Heels,Footwear,37,Nude,88.0,1.0,2024-02-07,Cash,26,Female,Mumbai,3.8
+1034,C033,Cap,Accessories,Free,Black,20.0,3.0,2024-02-08,UPI,24,Male,Delhi,4.0
+1035,C034,Blazer,Clothing,M,Charcoal,145.0,1.0,2024-02-09,Credit Card,41,Male,Bangalore,4.8
+1036,C014,Gym Gloves,Accessories,M,Black,,2.0,2024-01-19,Cash,25,Male,Chennai,3.8
+1037,C035,Maxi Dress,Clothing,L,Floral,72.0,1.0,2024-02-11,UPI,27,Female,Goa,4.5
+1038,C036,Sandals,Footwear,39,Tan,35.0,2.0,2024-02-12,Debit Card,32,Female,Chennai,4.2
+1039,C037,Track Pants,Clothing,XL,Grey,30.0,2.0,2024-02-13,Cash,29,Male,Hyderabad,3.9
+1040,C038,Stole,Accessories,,Maroon,25.0,3.0,2024-02-14,UPI,33,Female,Kolkata,4.4
+1001,C001,Men's Slim Fit Jeans,Clothing,M,Blue,49.99,2.0,2024-01-05,Credit Card,28,Male,Mumbai,4.5
+1005,C005,Men's T-Shirt,Clothing,L,Black,19.99,3.0,2024-01-09,UPI,22,Male,Hyderabad,4.2
+1011,C011,Women's Kurti,Clothing,M,Yellow,28.0,3.0,2024-01-15,UPI,26,Female,Lucknow,4.4
