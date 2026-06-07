@@ -21,7 +21,9 @@ PART-1:
 Superstore (Kaggle Dataset)
 
 -Step 1 — Load Dataset
+
 I downloaded the Superstore CSV from Kaggle and loaded it into MySQL. The table has 21 columns and I successfully loaded 9,994 rows of sales data ranging from 2014 to 2017.
+
 -Step 2 — Explore the Table
 I looked at the structure of the table using DESCRIBE to understand what columns exist and what type of data they hold. I also confirmed the total row count is 9,994.
 -Step 3 — WHERE Filters
