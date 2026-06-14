@@ -70,3 +70,24 @@ I combined data from multiple tables using INNER JOIN to show orders with custom
 -Section E — Advanced Concepts
 
 I classified all products into Budget, Mid-Range, and Premium price tiers using a CASE statement. I counted 6 Delivered vs 4 Not Delivered orders displayed in a single row. I explained all 4 ACID properties using a real-world bank transfer example. Finally I wrote a complete transaction that inserted a new order, added 2 order items, and updated the stock quantity — all wrapped safely with COMMIT and ROLLBACK to ensure data integrity.
+
+
+WEEK_3:
+Summary:
+-> performed comprehensive customer sales analysis using sql on structured retail dataset.
+
+-> cleaned and transformed raw data into normalized tables for efficient querying.
+
+-> leveraged advanced sql techniques including joins, subqueries, common table expressions (ctes), and window functions.
+
+-> analyzed customer performance by identifying top 5 and bottom 5 customers based on total sales.
+
+-> explored customer behavior patterns by detecting customers with only a single transaction.
+
+-> evaluated revenue distribution by filtering customers with above-average sales contribution.
+
+-> derived key metrics such as highest order value per customer to highlight peak transactions.
+
+-> applied ranking and aggregation techniques to generate meaningful business insights.
+
+-> compiled all queries, outputs, and analytical findings into a single well-documented deliverable suitable for reporting and review.
