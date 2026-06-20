@@ -91,3 +91,14 @@ Summary:
 -> applied ranking and aggregation techniques to generate meaningful business insights.
 
 -> compiled all queries, outputs, and analytical findings into a single well-documented deliverable suitable for reporting and review.
+
+WEEK-4:
+Summary:
+•	Task 1: Created Resource Group rg-adf-assignment
+•	Task 2: Created Storage Account stadfassign001, uploaded CSV to source-container, made destination-container
+•	Task 3: Created ADF adf-assignment-demo, set up Linked Service + source/destination datasets, ran Get Metadata activity successfully
+•	Task 4: Built pipeline pl_copy_csv (Get Metadata → Copy Data)
+•	Task 5: Ran pipeline via Debug — Succeeded, file confirmed in destination
+•	Task 6: Owner role already covers Reader/Contributor; assigned Storage Blob Data Contributor to ADF's managed identity for storage access
+•	Mini Project: Fully satisfied by the same pipeline — CSV copied end-to-end with metadata validated
+
