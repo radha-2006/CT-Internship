@@ -1,0 +1,1001 @@
+user_id,email,username,age,subscription,transaction_date,city,region,product_category,price,status,store_id,raw_timestamp
+655,user655@example.com,user_655,30,Premium,2023-05-23,Chicago,West,Toys,,active,S007,2023-08-27 16:38:00
+28,user28@example.com,user_28,59,Standard,2024-03-05,Phoenix,South,Sports,19.68,inactive,S014,2023-12-15 08:09:00
+221,user221@example.com,user_221,20,Basic,2023-04-10,Dallas,North,Sports,1097.3,active,S013,2023-03-22 17:18:00
+850,user850@example.com,user_850,38,Standard,2023-07-16,Chicago,West,Books,1477.98,inactive,S004,2024-01-25 08:29:00
+651,user651@example.com,user_651,37,Premium,2024-11-17,Los Angeles,West,Food,374.77,,S013,2023-10-04 20:44:00
+571,user571@example.com,user_571,64,Premium,2023-08-23,New York,North,Toys,324.36,pending,S007,2024-11-02 15:25:00
+659,user659@example.com,user_659,30,Standard,2024-07-28,Boston,North,Toys,605.11,inactive,S005,2024-06-05 15:05:00
+774,,user_774,55,Premium,2024-11-27,Seattle,West,Toys,1494.22,pending,S018,2023-01-12 21:46:00
+118,user118@example.com,user_118,32,Standard,2023-12-15,Chicago,North,Toys,14.84,pending,S017,2023-07-02 16:58:00
+109,user109@example.com,user_109,55,Standard,2024-09-15,Phoenix,East,Furniture,813.67,active,S020,2023-11-28 15:01:00
+115,user115@example.com,user_115,34,Premium,2023-03-01,Phoenix,West,Clothing,1225.87,inactive,S005,2024-11-06 15:35:00
+170,user170@example.com,user_170,42,Premium,2024-07-06,Phoenix,North,Toys,978.32,,S017,2024-04-07 03:15:00
+231,user231@example.com,,50,Premium,2024-08-25,Phoenix,West,Clothing,97.72,active,S002,2023-12-05 02:32:00
+244,user244@example.com,user_244,49,Premium,2024-08-07,Denver,South,Books,1213.17,inactive,S004,2023-04-10 21:27:00
+363,user363@example.com,user_363,61,Premium,2024-11-20,Chicago,West,Toys,1202.88,active,S008,2023-07-16 06:34:00
+460,user460@example.com,user_460,44,Premium,2023-03-19,Miami,West,Electronics,815.48,active,S003,2023-08-31 05:26:00
+498,user498@example.com,user_498,18,Premium,2024-01-24,New York,South,Sports,1179.84,pending,S014,2024-12-14 23:50:00
+570,user570@example.com,user_570,27,Basic,2023-08-11,New York,West,Furniture,,,S017,2024-06-27 05:03:00
+521,user521@example.com,user_521,53,Premium,2024-11-22,Phoenix,South,Clothing,858.82,active,S020,2023-03-25 13:42:00
+598,user598@example.com,user_598,31,Premium,2024-11-16,Dallas,East,Sports,1010.82,pending,S015,2023-11-20 02:00:00
+470,user470@example.com,user_470,21,Premium,2024-07-04,Phoenix,North,Food,1322.49,inactive,S012,2023-10-19 05:28:00
+557,user557@example.com,user_557,56,Standard,2023-01-09,Boston,North,Clothing,210.09,active,S004,2024-07-20 04:17:00
+289,user289@example.com,user_289,28,Standard,2024-10-11,Los Angeles,South,Sports,1270.69,active,S014,2023-10-11 01:00:00
+342,user342@example.com,user_342,31,Premium,2024-03-28,Boston,South,Electronics,1418.13,inactive,S018,2023-02-06 11:37:00
+566,user566@example.com,user_566,34,Basic,2023-02-10,Dallas,East,Books,536.98,,S020,2023-06-08 07:55:00
+167,user167@example.com,user_167,41,Premium,2023-07-03,Dallas,South,Books,1183.19,active,S013,2023-02-09 15:14:00
+205,user205@example.com,user_205,34,Premium,2023-08-17,New York,East,Toys,1297.89,pending,S012,2024-10-18 16:25:00
+696,user696@example.com,user_696,16,Premium,2023-09-25,Houston,North,Electronics,657.5,pending,S014,2024-09-12 16:07:00
+395,user395@example.com,user_395,17,Standard,2024-03-22,New York,East,Furniture,1423.82,pending,S020,2023-11-18 21:54:00
+128,user128@example.com,user_128,34,Standard,2024-02-23,Dallas,South,Sports,295.84,,S006,2024-09-22 18:19:00
+416,user416@example.com,,33,Premium,2024-03-16,Denver,North,Beauty,1016.68,,S006,2024-11-05 02:18:00
+528,user528@example.com,user_528,20,Premium,2024-11-19,Los Angeles,East,Books,78.86,,S020,2023-03-16 14:26:00
+645,user645@example.com,user_645,39,Basic,2024-02-14,Phoenix,East,Electronics,1292.06,active,S014,2023-08-13 05:51:00
+713,user713@example.com,user_713,30,Premium,2024-04-12,Houston,South,Furniture,1338.22,,S018,2024-04-01 05:47:00
+487,user487@example.com,user_487,55,Basic,2024-06-17,Miami,East,Sports,1073.18,inactive,S009,2023-12-10 10:57:00
+554,user554@example.com,user_554,39,Standard,2023-06-06,Phoenix,West,Toys,818.49,,S002,2023-07-31 13:24:00
+789,user789@example.com,user_789,63,Standard,2024-01-25,Miami,West,Furniture,591.08,,S018,2024-07-13 19:57:00
+226,user226@example.com,user_226,46,Premium,2024-02-03,Dallas,South,Food,1380.12,active,S013,2024-08-29 18:42:00
+28,user28@example.com,user_28,44,Premium,2023-02-21,Los Angeles,South,Furniture,497.0,,S009,2024-03-07 08:53:00
+84,user84@example.com,user_84,18,Basic,2023-08-18,Chicago,West,Electronics,307.05,active,S020,2023-06-06 07:08:00
+485,user485@example.com,user_485,28,Basic,2024-12-17,Los Angeles,North,Food,1445.96,active,S006,2023-11-15 03:37:00
+27,user27@example.com,user_27,39,Basic,2023-07-23,Chicago,East,Clothing,459.36,active,S019,2023-02-12 11:34:00
+439,user439@example.com,user_439,56,Basic,2023-01-13,Seattle,South,Clothing,549.66,,S005,2024-03-21 05:46:00
+535,user535@example.com,user_535,49,Basic,2024-04-21,Seattle,North,Furniture,1247.79,active,S009,2024-04-06 07:48:00
+476,user476@example.com,user_476,36,Premium,2024-05-21,Dallas,East,Beauty,1198.77,pending,S009,2024-09-02 22:56:00
+283,user283@example.com,user_283,27,Premium,2023-09-05,Seattle,South,Books,972.4,,S015,2023-01-18 02:18:00
+227,user227@example.com,user_227,57,Standard,2024-01-13,Miami,North,Toys,830.08,pending,S015,2023-10-05 09:16:00
+237,user237@example.com,user_237,22,Standard,2024-07-02,Houston,East,Books,421.98,pending,S004,2023-07-18 09:14:00
+370,user370@example.com,,49,Premium,2023-10-08,New York,West,Sports,198.16,,S004,2023-01-13 18:18:00
+481,user481@example.com,user_481,18,Basic,2024-05-04,Chicago,West,Toys,869.76,active,S005,2023-06-02 18:19:00
+88,user88@example.com,user_88,63,Basic,2024-09-12,Denver,East,Toys,669.65,,S010,2024-08-05 19:03:00
+625,user625@example.com,user_625,63,Premium,2024-10-02,Phoenix,North,Clothing,268.98,active,S006,2023-01-03 13:28:00
+706,user706@example.com,user_706,29,Basic,2024-12-24,Los Angeles,South,Clothing,1386.63,inactive,S014,2023-04-28 17:14:00
+664,user664@example.com,user_664,24,Premium,2023-03-03,Houston,North,Sports,708.36,pending,S013,2023-10-06 16:34:00
+506,user506@example.com,user_506,42,Standard,2023-11-27,Denver,North,Electronics,1443.25,active,S009,2024-08-13 01:48:00
+775,user775@example.com,user_775,43,Basic,2023-07-05,Denver,South,Beauty,710.32,,S011,2023-11-25 21:06:00
+165,user165@example.com,user_165,33,Standard,2024-02-15,Boston,West,Beauty,386.07,active,S013,2024-06-10 00:42:00
+556,user556@example.com,user_556,48,Basic,2024-09-29,Miami,South,Electronics,828.34,pending,S015,2024-12-16 15:07:00
+30,user30@example.com,user_30,30,Standard,2023-06-12,Los Angeles,West,Toys,1488.46,active,S015,2023-05-01 20:53:00
+158,user158@example.com,user_158,47,Standard,2023-10-07,Seattle,South,Beauty,831.38,,S007,2024-09-05 16:47:00
+140,user140@example.com,user_140,65,Basic,2023-12-15,Boston,North,Electronics,454.85,,S005,2024-04-02 17:30:00
+354,user354@example.com,user_354,39,Basic,2023-11-26,Phoenix,East,Toys,1165.56,active,S011,2024-04-29 22:58:00
+831,user831@example.com,user_831,65,Standard,2023-06-05,Miami,West,Food,889.37,active,S015,2023-04-13 16:58:00
+468,,user_468,56,Premium,2023-03-18,Miami,North,Furniture,602.25,active,S011,2024-11-21 17:24:00
+325,user325@example.com,user_325,46,Standard,2023-02-06,Denver,West,Books,1382.18,inactive,S003,2024-03-20 03:48:00
+649,user649@example.com,user_649,25,Standard,2023-11-03,New York,West,Furniture,447.12,pending,S014,2023-05-30 07:33:00
+422,user422@example.com,user_422,25,Premium,2023-03-22,Denver,South,Books,878.9,inactive,S015,2024-10-15 08:29:00
+262,user262@example.com,user_262,44,Basic,2024-11-24,Boston,East,Clothing,524.89,pending,S014,2024-12-07 08:29:00
+310,user310@example.com,user_310,45,Premium,2023-08-31,Seattle,North,Sports,449.89,,S009,2023-01-09 18:55:00
+703,user703@example.com,user_703,53,Standard,2024-05-23,Los Angeles,East,Furniture,293.3,pending,S005,2024-10-05 03:57:00
+643,user643@example.com,user_643,43,Premium,2024-08-16,Dallas,East,Clothing,496.81,,S006,2023-07-25 04:50:00
+553,user553@example.com,user_553,47,Basic,2023-06-18,Los Angeles,South,Sports,514.69,active,S015,2023-03-19 04:48:00
+232,user232@example.com,user_232,40,Standard,2024-01-10,Chicago,South,Electronics,194.15,pending,S009,2024-08-21 12:52:00
+654,user654@example.com,user_654,29,Basic,2023-01-26,Denver,North,Books,956.75,,S010,2024-10-26 13:07:00
+144,,,46,Premium,2023-04-10,Phoenix,East,Toys,1009.02,,S019,2023-06-08 13:41:00
+102,user102@example.com,user_102,32,Premium,2024-12-07,Dallas,East,Beauty,361.81,pending,S004,2024-12-03 11:34:00
+661,user661@example.com,user_661,27,Premium,2024-04-10,Chicago,East,Electronics,,pending,S008,2023-05-09 18:13:00
+71,user71@example.com,user_71,52,Premium,2023-08-27,Dallas,East,Electronics,1476.2,inactive,S018,2023-09-14 05:07:00
+677,user677@example.com,user_677,37,Premium,2024-08-25,Dallas,West,Food,198.87,,S017,2023-04-27 23:04:00
+488,user488@example.com,user_488,52,Premium,2024-04-07,Boston,East,Electronics,1364.04,pending,S015,2024-10-20 00:03:00
+491,user491@example.com,user_491,21,Basic,2024-12-30,Miami,West,Clothing,231.02,inactive,S009,2024-10-01 20:37:00
+562,user562@example.com,user_562,53,Standard,2023-10-29,Miami,South,Clothing,180.48,inactive,S014,2024-04-07 07:26:00
+348,user348@example.com,user_348,61,Premium,2023-11-17,Seattle,North,Sports,237.43,,S003,2023-04-04 02:05:00
+443,user443@example.com,user_443,23,Standard,2023-03-03,Denver,North,Clothing,1311.67,,S002,2023-10-22 19:19:00
+361,user361@example.com,user_361,24,Standard,2024-05-08,Phoenix,West,Furniture,557.67,pending,S019,2023-08-20 13:54:00
+575,user575@example.com,user_575,54,Standard,2024-10-20,Boston,West,Sports,,pending,S010,2023-12-14 11:00:00
+186,user186@example.com,user_186,40,Premium,2023-05-26,New York,West,Books,685.93,inactive,S012,2023-11-16 23:20:00
+796,user796@example.com,user_796,18,Premium,2023-06-11,Denver,West,Clothing,996.29,,S020,2024-03-28 13:17:00
+221,user221@example.com,user_221,42,Premium,2023-10-18,Denver,South,Sports,,,S020,2023-02-26 00:13:00
+309,user309@example.com,user_309,63,Basic,2023-10-24,Dallas,West,Electronics,651.68,inactive,S013,2024-06-29 22:14:00
+513,user513@example.com,user_513,37,Premium,2024-02-11,New York,South,Electronics,126.02,pending,S019,2024-03-15 18:25:00
+727,user727@example.com,user_727,40,Premium,2023-11-29,Houston,South,Furniture,1268.28,inactive,S014,2024-08-26 12:33:00
+81,user81@example.com,user_81,36,Premium,2023-12-08,Houston,West,Clothing,298.92,pending,S012,2024-10-22 04:15:00
+106,user106@example.com,user_106,53,Premium,2024-11-02,Chicago,East,Beauty,849.97,,S019,2024-10-20 20:39:00
+331,user331@example.com,user_331,24,Basic,2023-03-11,Miami,South,Sports,891.22,pending,S017,2023-03-17 09:29:00
+463,,user_463,33,Premium,2024-10-22,Chicago,South,Beauty,1431.8,active,S015,2024-08-08 20:12:00
+330,user330@example.com,user_330,18,Basic,2023-04-16,Dallas,West,Food,,,S015,2024-06-20 16:39:00
+163,user163@example.com,user_163,39,Basic,2023-12-13,Denver,West,Furniture,150.81,,S010,2023-09-16 23:54:00
+673,user673@example.com,user_673,24,Basic,2023-03-25,Denver,East,Furniture,987.52,,S005,2024-09-01 22:05:00
+318,user318@example.com,user_318,36,Premium,2024-11-17,Boston,West,Toys,37.16,pending,S006,2023-08-08 10:49:00
+498,user498@example.com,user_498,24,Premium,2023-10-30,Chicago,West,Furniture,930.87,,S005,2023-06-16 05:53:00
+710,user710@example.com,user_710,25,Standard,2024-03-24,New York,South,Furniture,363.92,,S020,2023-10-19 23:50:00
+460,user460@example.com,user_460,65,Basic,2023-07-18,Dallas,South,Beauty,1169.4,,S006,2023-07-24 19:08:00
+257,user257@example.com,user_257,38,Standard,2023-04-16,Boston,West,Sports,248.87,,S017,2023-05-31 13:05:00
+228,user228@example.com,user_228,16,Basic,2023-02-24,Seattle,North,Books,131.59,inactive,S001,2023-11-23 03:53:00
+732,user732@example.com,user_732,23,Premium,2023-10-21,Miami,East,Beauty,17.82,active,S001,2023-09-20 06:53:00
+154,user154@example.com,user_154,48,Basic,2023-04-24,Los Angeles,East,Sports,365.27,,S003,2023-04-24 15:38:00
+549,,user_549,30,Standard,2023-05-28,Los Angeles,South,Electronics,368.44,,S006,2024-11-11 21:05:00
+537,user537@example.com,user_537,48,Standard,2024-06-03,Boston,West,Toys,74.87,,S012,2023-09-17 23:01:00
+366,user366@example.com,user_366,61,Standard,2024-10-05,Chicago,North,Food,,pending,S006,2024-12-02 14:44:00
+491,user491@example.com,user_491,19,Standard,2024-04-13,New York,North,Books,,inactive,S002,2023-11-20 09:32:00
+408,user408@example.com,user_408,31,Premium,2024-10-24,Phoenix,North,Furniture,81.23,pending,S009,2023-05-08 11:27:00
+410,user410@example.com,user_410,39,Basic,2023-07-11,Miami,South,Furniture,783.72,active,S014,2023-03-22 13:38:00
+843,user843@example.com,user_843,21,Premium,2023-12-02,Los Angeles,North,Beauty,644.91,,S012,2024-04-02 01:46:00
+362,user362@example.com,user_362,55,Premium,2023-03-18,Seattle,North,Food,222.74,,S002,2023-05-10 02:15:00
+798,user798@example.com,user_798,51,Premium,2024-09-11,Houston,South,Furniture,1147.0,inactive,S017,2024-01-11 12:20:00
+666,user666@example.com,user_666,16,Standard,2023-07-10,Miami,South,Clothing,397.83,,S007,2024-09-18 09:44:00
+503,user503@example.com,user_503,19,Basic,2023-06-26,Miami,West,Furniture,1067.22,pending,S010,2023-06-11 22:45:00
+718,user718@example.com,user_718,47,Premium,2023-05-05,Phoenix,East,Books,49.16,pending,S015,2024-07-18 04:39:00
+89,user89@example.com,user_89,60,Standard,2024-05-05,Boston,South,Toys,119.89,pending,S003,2024-04-05 14:43:00
+530,user530@example.com,user_530,64,Standard,2024-10-17,Denver,East,Food,1366.96,active,S004,2024-06-14 04:19:00
+169,user169@example.com,user_169,29,Basic,2024-06-15,Los Angeles,West,Sports,1434.96,pending,S005,2024-10-02 09:39:00
+547,user547@example.com,user_547,52,Standard,2023-06-07,Houston,North,Electronics,52.28,active,S019,2023-09-29 20:13:00
+786,user786@example.com,user_786,16,Basic,2024-10-04,Boston,North,Sports,1208.99,,S010,2024-04-09 02:44:00
+62,user62@example.com,user_62,44,Premium,2023-12-15,Denver,East,Furniture,485.78,pending,S013,2023-05-14 11:32:00
+576,user576@example.com,user_576,22,Basic,2024-04-05,Phoenix,East,Clothing,,,S020,2024-03-04 07:55:00
+164,user164@example.com,user_164,61,Basic,2023-07-14,Houston,South,Beauty,469.73,active,S003,2024-02-07 16:29:00
+247,user247@example.com,user_247,18,Basic,2024-05-21,Denver,South,Sports,1272.29,,S005,2023-09-28 23:23:00
+783,user783@example.com,user_783,18,Standard,2024-07-29,Phoenix,North,Sports,761.34,pending,S020,2024-11-27 19:07:00
+132,user132@example.com,user_132,65,Basic,2024-07-25,Dallas,East,Books,608.07,active,S002,2023-02-09 04:45:00
+342,user342@example.com,user_342,24,Standard,2024-06-11,Houston,North,Furniture,1486.02,pending,S019,2023-12-11 16:53:00
+522,user522@example.com,user_522,34,Basic,2023-01-18,Dallas,North,Clothing,879.72,active,S020,2024-04-30 08:41:00
+802,user802@example.com,user_802,29,Standard,2023-02-22,Denver,South,Food,1084.56,,S005,2024-11-28 07:02:00
+587,user587@example.com,user_587,16,Basic,2023-11-18,Seattle,East,Toys,621.46,,S002,2024-12-23 04:33:00
+213,user213@example.com,user_213,45,Standard,2024-01-21,Dallas,East,Beauty,520.07,pending,S009,2024-09-16 15:12:00
+253,user253@example.com,user_253,34,Basic,2024-12-22,Phoenix,South,Furniture,845.13,pending,S010,2023-05-05 18:43:00
+557,user557@example.com,user_557,37,Premium,2023-10-25,New York,North,Clothing,669.14,pending,S016,2023-08-08 06:52:00
+552,user552@example.com,user_552,32,Premium,2023-04-22,Denver,East,Books,,inactive,S008,2023-02-23 03:26:00
+339,user339@example.com,user_339,64,Premium,2023-01-06,Boston,East,Toys,1322.16,,S016,2024-10-28 06:48:00
+295,user295@example.com,user_295,64,Premium,2024-10-29,Denver,East,Electronics,270.85,inactive,S002,2024-02-11 15:11:00
+767,user767@example.com,user_767,17,Premium,2023-11-02,Denver,West,Furniture,1483.76,,S005,2024-05-31 14:17:00
+198,user198@example.com,user_198,61,Basic,2024-10-25,Los Angeles,East,Electronics,1188.24,inactive,S006,2024-09-17 20:57:00
+416,user416@example.com,user_416,20,Basic,2024-11-16,Chicago,East,Food,1404.38,active,S009,2024-01-28 07:28:00
+772,user772@example.com,user_772,52,Standard,2024-08-09,New York,North,Furniture,102.57,active,S015,2023-11-11 05:25:00
+703,user703@example.com,user_703,60,Basic,2024-12-07,Chicago,North,Furniture,336.5,inactive,S016,2023-06-06 14:47:00
+621,user621@example.com,user_621,45,Standard,2024-11-11,Phoenix,East,Clothing,796.98,pending,S003,2024-07-31 03:03:00
+849,user849@example.com,user_849,51,Standard,2023-06-03,Houston,North,Beauty,316.05,,S003,2024-06-06 14:51:00
+57,user57@example.com,user_57,44,Standard,2023-03-01,Boston,South,Sports,599.96,active,S007,2024-08-15 02:02:00
+434,user434@example.com,user_434,18,Premium,2024-04-28,New York,North,Toys,211.79,,S012,2024-01-27 14:55:00
+387,user387@example.com,user_387,57,Standard,2023-05-17,Dallas,West,Food,595.66,inactive,S008,2023-01-04 00:19:00
+475,user475@example.com,user_475,49,Basic,2023-08-24,Phoenix,South,Furniture,290.84,active,S002,2024-11-07 13:39:00
+785,user785@example.com,user_785,30,Premium,2023-03-10,Chicago,West,Beauty,1057.9,active,S008,2023-02-15 12:28:00
+240,user240@example.com,user_240,64,Premium,2023-05-24,Boston,North,Books,1099.96,pending,S019,2024-09-04 21:52:00
+329,user329@example.com,user_329,57,Standard,2023-08-15,Seattle,North,Sports,1423.3,inactive,S014,2024-07-23 15:03:00
+353,user353@example.com,user_353,65,Standard,2023-11-23,Seattle,South,Food,283.98,,S008,2023-08-19 09:54:00
+725,user725@example.com,user_725,18,Standard,2024-02-27,Seattle,East,Toys,312.97,active,S015,2024-01-15 02:34:00
+742,user742@example.com,user_742,39,Standard,2024-09-11,Denver,West,Clothing,1144.93,inactive,S016,2023-08-02 10:19:00
+16,user16@example.com,user_16,62,Premium,2024-05-05,Phoenix,East,Toys,832.6,pending,S013,2024-04-22 17:41:00
+368,user368@example.com,user_368,46,Basic,2023-04-11,Miami,North,Books,626.76,inactive,S005,2023-01-17 08:35:00
+599,user599@example.com,user_599,24,Premium,2023-12-04,Phoenix,South,Books,985.37,pending,S009,2024-05-15 23:41:00
+758,user758@example.com,user_758,65,Basic,2023-06-23,Houston,South,Food,817.78,active,S017,2023-02-04 02:52:00
+685,,,23,Standard,2023-08-25,Chicago,East,Electronics,689.45,active,S020,2024-10-15 21:59:00
+632,user632@example.com,user_632,16,Premium,2024-06-28,Boston,South,Electronics,,pending,S018,2023-10-21 00:32:00
+833,user833@example.com,user_833,26,Premium,2023-04-09,Boston,East,Books,794.42,pending,S009,2024-02-11 02:23:00
+416,user416@example.com,user_416,59,Premium,2023-11-04,Chicago,West,Clothing,571.98,,S002,2024-10-14 00:44:00
+176,user176@example.com,user_176,56,Basic,2024-08-02,Chicago,West,Books,1303.49,,S009,2023-02-17 02:43:00
+288,user288@example.com,user_288,17,Premium,2023-11-19,New York,East,Food,1071.94,,S003,2023-11-03 05:36:00
+247,user247@example.com,user_247,58,Standard,2023-12-06,Seattle,East,Clothing,1461.74,active,S004,2024-03-23 07:53:00
+78,user78@example.com,user_78,53,Basic,2023-12-01,New York,North,Beauty,540.16,,S014,2023-07-10 21:37:00
+677,user677@example.com,user_677,33,Premium,2023-03-17,Chicago,North,Food,1178.0,inactive,S013,2023-11-21 11:06:00
+94,,user_94,38,Basic,2023-04-15,Houston,West,Food,839.91,,S004,2023-01-27 02:22:00
+568,user568@example.com,user_568,35,Basic,2023-01-13,Los Angeles,South,Toys,1090.02,inactive,S019,2024-06-17 05:43:00
+390,user390@example.com,user_390,32,Basic,2023-05-30,Chicago,East,Toys,456.63,active,S012,2023-09-15 07:46:00
+641,user641@example.com,user_641,44,Premium,2023-05-19,Los Angeles,West,Toys,934.09,pending,S015,2023-12-09 13:52:00
+844,user844@example.com,user_844,23,Basic,2023-11-25,Denver,East,Beauty,1447.22,pending,S010,2024-12-12 20:31:00
+590,user590@example.com,user_590,32,Basic,2024-01-09,Chicago,East,Food,829.65,,S007,2024-03-24 09:53:00
+710,user710@example.com,user_710,65,Basic,2024-11-20,Miami,East,Sports,991.41,,S013,2023-03-17 14:38:00
+491,user491@example.com,user_491,59,Basic,2024-07-10,New York,North,Clothing,379.86,pending,S006,2024-10-24 19:02:00
+577,user577@example.com,user_577,40,Basic,2024-03-16,Chicago,West,Clothing,770.91,inactive,S015,2024-01-19 12:29:00
+791,user791@example.com,user_791,24,Basic,2023-01-26,Miami,West,Sports,1442.97,active,S005,2023-12-23 09:21:00
+467,user467@example.com,user_467,37,Basic,2023-04-10,Miami,South,Furniture,76.58,active,S001,2023-12-18 20:06:00
+694,user694@example.com,user_694,62,Premium,2024-06-12,Houston,East,Furniture,1438.11,inactive,S013,2024-10-06 05:11:00
+656,user656@example.com,user_656,62,Standard,2023-07-22,Miami,South,Toys,,inactive,S007,2023-10-13 22:51:00
+816,user816@example.com,user_816,49,Premium,2024-01-10,Dallas,East,Beauty,1009.35,,S017,2024-10-16 10:38:00
+398,user398@example.com,user_398,37,Basic,2024-04-13,Denver,East,Sports,889.35,inactive,S011,2023-05-01 07:19:00
+120,user120@example.com,user_120,47,Basic,2024-03-04,Denver,East,Toys,735.14,inactive,S018,2023-06-20 15:18:00
+144,user144@example.com,user_144,54,Premium,2024-01-03,New York,South,Food,582.08,,S014,2024-12-02 15:26:00
+728,user728@example.com,user_728,20,Standard,2023-02-01,Phoenix,North,Electronics,811.04,inactive,S015,2024-08-02 23:49:00
+785,user785@example.com,user_785,51,Premium,2023-10-02,Boston,North,Electronics,667.64,inactive,S014,2023-04-15 23:53:00
+670,user670@example.com,user_670,17,Basic,2023-09-27,Dallas,West,Beauty,184.91,inactive,S007,2024-08-25 22:22:00
+728,user728@example.com,user_728,54,Premium,2023-07-31,Phoenix,West,Furniture,899.32,inactive,S011,2024-12-21 09:18:00
+587,user587@example.com,user_587,58,Premium,2023-05-19,Seattle,West,Sports,199.06,inactive,S008,2023-05-30 22:20:00
+849,user849@example.com,user_849,40,Basic,2023-05-26,Denver,North,Toys,122.52,active,S013,2024-06-11 23:17:00
+712,user712@example.com,user_712,46,Basic,2024-08-18,New York,West,Beauty,1048.96,active,S018,2024-02-12 06:27:00
+845,user845@example.com,user_845,33,Basic,2024-07-14,Denver,East,Beauty,1342.29,active,S002,2023-04-12 20:50:00
+471,,user_471,25,Basic,2024-04-12,New York,South,Books,1365.02,pending,S006,2023-10-08 02:41:00
+370,user370@example.com,user_370,56,Premium,2023-02-23,Seattle,North,Books,145.89,active,S001,2023-08-07 15:04:00
+136,user136@example.com,user_136,43,Premium,2023-01-09,Dallas,West,Toys,721.77,inactive,S013,2023-04-02 23:51:00
+105,user105@example.com,user_105,34,Premium,2024-01-27,Houston,East,Clothing,22.63,inactive,S015,2023-12-26 23:13:00
+644,user644@example.com,user_644,54,Standard,2024-03-29,Phoenix,West,Clothing,193.5,,S012,2024-03-15 10:50:00
+144,user144@example.com,user_144,30,Standard,2024-09-07,Denver,North,Electronics,991.02,pending,S007,2024-06-14 19:32:00
+194,user194@example.com,user_194,18,Premium,2024-05-21,Seattle,West,Books,894.96,active,S012,2023-11-21 04:24:00
+583,user583@example.com,user_583,26,Basic,2023-03-16,New York,West,Electronics,69.34,active,S013,2024-06-02 09:40:00
+730,user730@example.com,user_730,59,Basic,2023-03-26,Boston,East,Sports,127.74,inactive,S005,2024-07-03 10:25:00
+601,user601@example.com,user_601,58,Standard,2023-03-09,Los Angeles,South,Books,,active,S014,2023-04-29 14:39:00
+624,user624@example.com,user_624,57,Standard,2023-06-29,Chicago,West,Food,254.11,pending,S017,2024-06-13 23:16:00
+171,user171@example.com,user_171,32,Standard,2023-05-01,New York,North,Toys,105.17,active,S016,2024-04-11 16:23:00
+57,user57@example.com,user_57,38,Premium,2023-09-19,Chicago,West,Books,13.83,active,S008,2023-02-17 15:23:00
+393,user393@example.com,user_393,17,Standard,2024-11-02,Seattle,East,Furniture,1374.62,pending,S009,2023-03-21 18:23:00
+123,user123@example.com,user_123,26,Premium,2024-06-12,New York,South,Clothing,1300.39,pending,S011,2023-03-30 17:29:00
+9,user9@example.com,user_9,65,Basic,2024-09-29,Phoenix,South,Furniture,745.11,inactive,S018,2023-09-09 04:00:00
+420,,user_420,55,Standard,2023-01-10,Dallas,West,Toys,1093.55,active,S007,2024-06-26 07:26:00
+504,user504@example.com,user_504,24,Standard,2023-10-14,Chicago,West,Books,784.44,pending,S015,2023-03-28 18:06:00
+518,user518@example.com,user_518,19,Standard,2024-08-04,New York,South,Food,398.88,pending,S013,2024-12-18 23:20:00
+326,user326@example.com,user_326,27,Premium,2024-08-21,Chicago,East,Clothing,704.42,,S004,2024-07-02 11:49:00
+213,user213@example.com,user_213,22,Premium,2023-06-11,Los Angeles,West,Books,498.41,active,S008,2023-12-31 12:32:00
+51,user51@example.com,user_51,26,Premium,2024-02-19,Miami,East,Clothing,1207.81,inactive,S004,2023-01-13 01:53:00
+800,user800@example.com,user_800,40,Basic,2024-12-03,Chicago,North,Clothing,,active,S007,2024-10-23 14:51:00
+132,user132@example.com,user_132,36,Premium,2023-02-13,Miami,West,Food,655.4,,S016,2023-01-31 12:43:00
+437,user437@example.com,user_437,26,Basic,2023-10-14,Miami,East,Electronics,929.3,pending,S016,2024-02-26 17:30:00
+63,user63@example.com,user_63,41,Premium,2024-10-20,Boston,East,Electronics,1175.05,pending,S016,2024-07-11 15:22:00
+580,user580@example.com,user_580,26,Premium,2023-11-23,Denver,East,Electronics,1170.02,active,S016,2024-06-26 11:49:00
+599,user599@example.com,user_599,21,Premium,2024-11-03,Phoenix,North,Electronics,1422.23,,S012,2023-06-27 05:15:00
+607,user607@example.com,user_607,37,Standard,2023-01-29,Dallas,East,Books,1217.5,,S018,2023-11-13 05:31:00
+39,user39@example.com,user_39,29,Premium,2024-06-23,Miami,West,Furniture,310.18,inactive,S011,2023-07-01 10:03:00
+23,user23@example.com,user_23,24,Premium,2024-06-22,Dallas,West,Furniture,996.59,active,S011,2023-11-06 10:08:00
+162,user162@example.com,user_162,55,Basic,2024-10-26,Dallas,East,Furniture,887.54,inactive,S013,2023-11-11 23:44:00
+302,user302@example.com,user_302,59,Standard,2024-02-05,Denver,West,Food,1382.35,inactive,S019,2023-04-17 15:09:00
+340,user340@example.com,user_340,35,Premium,2024-10-13,Chicago,North,Beauty,,inactive,S008,2024-12-10 02:22:00
+263,user263@example.com,user_263,18,Basic,2024-03-24,Seattle,East,Toys,574.28,,S004,2024-05-05 18:41:00
+777,user777@example.com,user_777,19,Premium,2023-10-29,New York,North,Sports,120.56,inactive,S013,2023-06-14 23:04:00
+561,user561@example.com,user_561,36,Standard,2024-09-20,Miami,West,Toys,255.85,,S006,2023-02-24 03:21:00
+211,user211@example.com,user_211,50,Standard,2024-07-07,Los Angeles,North,Sports,83.96,,S005,2023-02-25 11:00:00
+438,user438@example.com,user_438,55,Standard,2024-05-06,Phoenix,West,Electronics,960.9,active,S016,2023-04-29 09:50:00
+408,user408@example.com,user_408,31,Premium,2024-10-19,Boston,South,Food,578.35,inactive,S015,2023-02-15 08:28:00
+477,user477@example.com,user_477,51,Premium,2023-06-04,Chicago,West,Furniture,626.84,inactive,S018,2023-03-04 12:52:00
+536,user536@example.com,user_536,45,Standard,2023-08-30,Miami,North,Clothing,1282.37,active,S017,2024-08-07 16:51:00
+586,user586@example.com,user_586,22,Basic,2023-06-27,Houston,East,Books,640.83,,S007,2024-10-04 04:53:00
+610,user610@example.com,user_610,19,Premium,2024-02-02,Boston,South,Furniture,784.34,active,S020,2024-08-24 16:50:00
+430,user430@example.com,user_430,51,Standard,2024-08-19,Chicago,West,Clothing,1302.54,pending,S014,2023-09-28 12:41:00
+498,user498@example.com,user_498,26,Basic,2024-02-17,Houston,South,Electronics,1319.65,inactive,S002,2024-05-01 08:57:00
+382,,user_382,34,Basic,2023-10-15,Miami,West,Books,1461.59,,S011,2023-10-03 23:26:00
+620,user620@example.com,user_620,28,Basic,2024-05-11,Boston,North,Electronics,246.87,pending,S017,2024-02-18 04:49:00
+537,user537@example.com,,27,Premium,2023-03-01,Phoenix,West,Beauty,,pending,S007,2023-10-08 11:52:00
+476,user476@example.com,user_476,22,Standard,2023-02-01,Phoenix,North,Beauty,274.6,,S019,2024-07-18 11:22:00
+168,user168@example.com,user_168,59,Premium,2023-10-19,New York,South,Electronics,862.66,inactive,S008,2024-10-24 07:43:00
+212,user212@example.com,user_212,16,Standard,2023-01-10,Miami,East,Food,22.61,pending,S020,2023-11-09 22:45:00
+659,user659@example.com,user_659,37,Basic,2023-09-16,Phoenix,South,Sports,1238.22,,S019,2023-04-15 00:32:00
+679,user679@example.com,user_679,50,Standard,2024-08-31,Denver,North,Sports,727.79,pending,S009,2024-10-17 10:55:00
+284,user284@example.com,user_284,56,Basic,2023-07-12,Houston,East,Electronics,1205.52,,S011,2024-11-28 04:46:00
+27,user27@example.com,user_27,31,Basic,2024-02-19,Seattle,West,Books,1072.92,,S012,2024-06-03 09:54:00
+175,user175@example.com,user_175,26,Basic,2023-04-10,Miami,East,Sports,842.96,inactive,S011,2024-11-01 02:14:00
+364,user364@example.com,user_364,41,Basic,2024-01-16,Los Angeles,North,Beauty,711.1,active,S016,2023-07-19 16:07:00
+698,user698@example.com,user_698,18,Premium,2023-05-21,Phoenix,North,Toys,1340.34,,S005,2023-11-20 22:11:00
+798,user798@example.com,user_798,26,Basic,2024-10-11,New York,West,Beauty,1144.18,inactive,S019,2023-06-12 15:50:00
+782,user782@example.com,user_782,42,Standard,2024-03-15,Seattle,South,Beauty,66.21,inactive,S012,2023-01-15 10:48:00
+544,user544@example.com,user_544,55,Standard,2023-09-12,Phoenix,North,Sports,581.49,pending,S006,2023-03-08 01:19:00
+298,user298@example.com,user_298,48,Basic,2024-03-20,Houston,North,Beauty,290.75,,S001,2023-08-22 07:46:00
+135,user135@example.com,,47,Premium,2023-05-07,Dallas,West,Toys,391.13,active,S020,2023-02-19 21:06:00
+670,user670@example.com,user_670,22,Basic,2024-03-30,Seattle,West,Sports,238.16,active,S010,2024-03-06 21:06:00
+679,user679@example.com,user_679,59,Premium,2024-03-04,Chicago,West,Sports,168.33,inactive,S020,2023-07-24 08:53:00
+536,user536@example.com,user_536,41,Basic,2023-06-14,New York,South,Books,726.19,inactive,S001,2023-01-14 21:05:00
+114,user114@example.com,user_114,24,Premium,2024-06-07,Chicago,West,Sports,690.56,pending,S009,2024-04-20 01:06:00
+833,user833@example.com,,33,Basic,2024-11-24,Dallas,South,Clothing,1139.72,active,S001,2023-05-22 21:41:00
+175,user175@example.com,user_175,54,Basic,2023-04-06,Dallas,North,Food,606.37,,S009,2024-01-30 22:54:00
+490,user490@example.com,user_490,25,Premium,2023-05-16,New York,East,Clothing,890.22,,S006,2024-09-17 12:49:00
+368,user368@example.com,user_368,61,Premium,2024-05-09,Miami,West,Toys,104.37,pending,S001,2024-12-22 21:33:00
+786,user786@example.com,user_786,29,Standard,2023-12-13,Boston,West,Toys,380.38,pending,S013,2023-06-02 17:57:00
+628,user628@example.com,user_628,25,Standard,2024-04-25,Miami,East,Clothing,487.74,pending,S009,2023-02-21 16:14:00
+564,user564@example.com,user_564,30,Premium,2024-04-15,Miami,South,Clothing,676.13,active,S016,2024-10-31 00:06:00
+414,user414@example.com,user_414,15,Premium,2024-09-10,Denver,North,Books,689.75,pending,S012,2023-02-25 07:54:00
+466,user466@example.com,user_466,53,Basic,2024-11-03,Dallas,South,Clothing,991.78,active,S011,2023-12-30 20:51:00
+299,user299@example.com,user_299,21,Premium,2023-06-18,Miami,East,Toys,920.17,inactive,S004,2024-02-07 06:29:00
+845,user845@example.com,user_845,21,Basic,2023-02-17,Denver,West,Beauty,888.08,inactive,S016,2023-01-05 16:47:00
+50,user50@example.com,user_50,52,Basic,2024-06-04,Houston,East,Food,989.71,pending,S017,2024-01-29 13:38:00
+710,user710@example.com,user_710,36,Basic,2024-04-08,Houston,East,Toys,1330.79,pending,S018,2023-11-18 22:47:00
+567,user567@example.com,user_567,54,Standard,2023-10-25,Dallas,East,Food,1044.52,pending,S004,2023-12-27 17:30:00
+597,user597@example.com,user_597,41,Standard,2024-06-30,Los Angeles,South,Electronics,47.66,inactive,S002,2024-11-17 01:12:00
+274,user274@example.com,user_274,33,Standard,2023-09-14,Houston,West,Sports,816.35,pending,S015,2023-04-15 19:55:00
+692,user692@example.com,user_692,62,Standard,2024-07-28,Seattle,East,Sports,80.0,,S013,2024-03-02 21:20:00
+566,user566@example.com,user_566,27,Standard,2024-03-29,Phoenix,North,Books,1446.79,pending,S015,2023-07-01 21:04:00
+192,user192@example.com,user_192,22,Basic,2023-02-11,Seattle,North,Sports,880.14,pending,S001,2023-12-05 14:45:00
+159,,user_159,53,Premium,2024-10-02,Denver,North,Beauty,829.74,active,S011,2024-06-22 07:11:00
+534,user534@example.com,user_534,41,Standard,2024-07-03,Seattle,West,Furniture,327.9,pending,S011,2024-01-05 09:13:00
+771,user771@example.com,user_771,50,Standard,2023-01-10,Chicago,North,Beauty,966.97,inactive,S002,2024-11-29 10:24:00
+816,user816@example.com,user_816,49,Standard,2023-10-17,New York,North,Beauty,451.69,inactive,S011,2024-06-10 02:06:00
+172,user172@example.com,user_172,49,Premium,2024-10-03,Chicago,East,Books,642.07,active,S007,2024-07-04 22:56:00
+760,user760@example.com,user_760,19,Standard,2024-12-03,Houston,West,Beauty,66.45,active,S002,2023-07-02 08:35:00
+73,user73@example.com,user_73,31,Basic,2024-02-02,Miami,South,Toys,590.36,active,S018,2023-01-07 20:46:00
+634,user634@example.com,user_634,17,Standard,2023-03-16,Dallas,West,Sports,459.01,active,S010,2024-03-24 12:25:00
+842,user842@example.com,user_842,49,Premium,2023-05-20,Seattle,North,Food,1331.6,pending,S001,2024-07-20 17:09:00
+127,,user_127,40,Standard,2024-07-14,Chicago,North,Books,1356.28,pending,S007,2024-02-27 20:54:00
+525,user525@example.com,user_525,54,Basic,2023-07-18,Chicago,East,Electronics,1399.23,,S018,2023-03-16 09:42:00
+69,user69@example.com,user_69,52,Basic,2023-12-05,Dallas,East,Books,933.08,inactive,S011,2024-05-12 14:21:00
+632,user632@example.com,user_632,24,Standard,2024-08-03,Dallas,North,Toys,476.69,inactive,S014,2023-10-11 11:08:00
+696,user696@example.com,user_696,44,Basic,2024-01-03,Los Angeles,South,Clothing,913.88,pending,S005,2024-07-05 06:16:00
+752,user752@example.com,user_752,19,Premium,2024-06-03,New York,South,Books,831.88,,S005,2024-01-10 12:14:00
+791,user791@example.com,user_791,23,Basic,2024-05-28,Boston,West,Toys,25.78,inactive,S020,2024-12-01 05:48:00
+527,user527@example.com,user_527,51,Standard,2024-11-06,Houston,South,Furniture,,,S008,2023-03-06 08:23:00
+240,,user_240,65,Basic,2024-02-02,Miami,South,Electronics,,pending,S004,2024-12-21 16:40:00
+850,user850@example.com,user_850,52,Standard,2024-08-06,Houston,South,Toys,983.47,active,S017,2023-09-15 12:58:00
+229,user229@example.com,user_229,37,Basic,2024-05-08,Denver,West,Food,352.69,pending,S007,2023-06-03 05:10:00
+371,user371@example.com,user_371,57,Premium,2024-02-29,Dallas,West,Beauty,723.74,inactive,S014,2023-01-23 07:02:00
+131,user131@example.com,user_131,55,Standard,2023-02-10,Denver,East,Electronics,1384.45,,S020,2024-07-31 20:01:00
+737,user737@example.com,user_737,20,Premium,2024-04-04,Denver,South,Beauty,1247.24,inactive,S019,2023-07-06 19:42:00
+524,user524@example.com,user_524,36,Basic,2024-09-02,Denver,West,Books,207.0,active,S007,2024-06-19 16:43:00
+430,user430@example.com,user_430,26,Basic,2024-09-21,Denver,West,Clothing,992.49,active,S014,2024-06-18 13:23:00
+45,user45@example.com,user_45,45,Basic,2023-12-25,Denver,West,Toys,720.94,inactive,S003,2023-10-18 19:56:00
+557,user557@example.com,user_557,60,Standard,2023-01-08,Denver,West,Electronics,316.07,pending,S014,2024-01-06 03:09:00
+437,user437@example.com,user_437,49,Basic,2024-08-01,Dallas,North,Toys,625.71,,S006,2024-01-15 17:35:00
+496,user496@example.com,user_496,37,Standard,2024-02-12,Houston,West,Books,1051.97,inactive,S004,2023-08-08 16:25:00
+805,user805@example.com,user_805,59,Standard,2024-12-24,New York,East,Toys,17.88,active,S005,2024-04-27 19:27:00
+91,user91@example.com,user_91,20,Standard,2023-02-08,Seattle,South,Sports,900.23,inactive,S016,2024-03-25 00:12:00
+673,user673@example.com,user_673,27,Premium,2024-09-05,Boston,East,Food,546.01,active,S006,2023-03-30 08:49:00
+410,user410@example.com,user_410,52,Premium,2024-06-14,New York,West,Clothing,1091.95,pending,S012,2023-10-11 07:38:00
+200,user200@example.com,user_200,15,Basic,2023-06-29,Seattle,West,Clothing,516.55,active,S017,2023-09-21 17:52:00
+813,user813@example.com,user_813,39,Standard,2024-05-10,Phoenix,North,Beauty,1345.82,active,S016,2023-04-30 08:04:00
+392,user392@example.com,user_392,58,Standard,2023-08-24,Dallas,South,Furniture,24.49,pending,S008,2023-10-22 02:25:00
+690,user690@example.com,user_690,50,Premium,2024-05-02,Dallas,North,Books,410.92,inactive,S016,2023-07-24 07:47:00
+248,user248@example.com,user_248,27,Premium,2024-09-25,Dallas,East,Clothing,126.95,,S020,2023-01-07 17:02:00
+494,user494@example.com,user_494,51,Basic,2024-05-17,Houston,North,Toys,869.23,active,S017,2024-03-09 15:34:00
+34,user34@example.com,user_34,58,Premium,2024-04-13,Chicago,South,Furniture,27.61,inactive,S013,2024-08-17 03:20:00
+371,user371@example.com,user_371,50,Basic,2023-08-31,Los Angeles,South,Furniture,753.17,inactive,S014,2024-12-18 11:23:00
+411,user411@example.com,user_411,23,Standard,2024-12-03,Phoenix,West,Sports,837.46,,S007,2023-05-30 23:09:00
+485,user485@example.com,user_485,46,Premium,2024-10-07,Boston,North,Beauty,847.59,active,S013,2023-04-12 22:10:00
+62,user62@example.com,user_62,55,Premium,2024-04-05,Dallas,North,Furniture,840.66,pending,S012,2023-01-21 13:07:00
+360,user360@example.com,user_360,27,Standard,2024-08-12,Boston,East,Sports,1013.06,,S015,2023-03-22 12:39:00
+294,user294@example.com,user_294,25,Standard,2023-12-12,Seattle,South,Clothing,522.0,pending,S011,2024-10-30 09:45:00
+274,user274@example.com,user_274,43,Basic,2024-08-24,Boston,South,Toys,1282.78,inactive,S008,2024-11-08 08:47:00
+718,user718@example.com,user_718,40,Premium,2023-04-08,Chicago,South,Electronics,,,S017,2023-03-27 03:16:00
+633,user633@example.com,user_633,39,Basic,2023-08-23,Phoenix,North,Beauty,205.6,inactive,S001,2023-02-05 21:22:00
+334,user334@example.com,user_334,49,Basic,2024-07-15,Miami,East,Food,690.25,,S017,2024-10-17 20:34:00
+318,user318@example.com,user_318,29,Premium,2024-03-28,Los Angeles,North,Toys,462.32,active,S017,2023-05-20 11:18:00
+481,user481@example.com,user_481,46,Basic,2023-11-03,New York,South,Sports,1197.18,pending,S007,2024-02-26 17:27:00
+405,user405@example.com,user_405,56,Basic,2024-01-23,Phoenix,North,Clothing,366.95,pending,S010,2024-10-26 23:34:00
+829,user829@example.com,user_829,19,Premium,2023-05-20,Los Angeles,West,Beauty,415.48,,S007,2023-11-25 00:09:00
+51,user51@example.com,,21,Basic,2023-10-03,Houston,South,Electronics,234.52,,S007,2023-12-17 13:19:00
+805,user805@example.com,user_805,44,Standard,2023-02-02,Dallas,West,Food,,,S003,2024-07-10 15:11:00
+197,user197@example.com,user_197,39,Premium,2023-05-05,Phoenix,South,Beauty,1491.86,inactive,S015,2023-04-07 16:42:00
+214,user214@example.com,user_214,34,Basic,2023-06-12,New York,West,Sports,455.23,pending,S002,2024-11-13 06:07:00
+242,user242@example.com,user_242,25,Basic,2024-08-21,Chicago,South,Books,,active,S019,2024-12-08 15:44:00
+611,user611@example.com,user_611,30,Premium,2024-05-26,Chicago,North,Electronics,,inactive,S018,2023-04-20 04:31:00
+239,user239@example.com,user_239,56,Basic,2024-03-25,Phoenix,West,Toys,210.75,active,S016,2024-12-24 14:35:00
+302,user302@example.com,user_302,51,Premium,2024-07-10,Dallas,North,Beauty,1248.71,inactive,S003,2024-06-27 04:28:00
+303,user303@example.com,user_303,44,Premium,2024-10-15,Boston,South,Food,933.4,pending,S020,2023-09-02 10:46:00
+65,user65@example.com,user_65,39,Premium,2024-06-20,Miami,East,Sports,964.95,active,S004,2024-06-19 21:04:00
+45,user45@example.com,user_45,17,Premium,2023-04-20,Miami,East,Clothing,,,S016,2024-06-22 19:44:00
+605,user605@example.com,user_605,53,Standard,2023-03-14,New York,East,Beauty,1249.8,,S002,2024-01-05 17:47:00
+426,user426@example.com,user_426,18,Standard,2023-09-30,Boston,West,Clothing,126.12,inactive,S017,2023-04-10 03:46:00
+237,user237@example.com,user_237,48,Standard,2023-09-12,Denver,East,Toys,1151.76,pending,S015,2024-12-20 21:27:00
+107,user107@example.com,user_107,40,Standard,2023-12-12,Houston,South,Furniture,829.62,pending,S012,2024-02-27 20:27:00
+846,user846@example.com,user_846,51,Standard,2023-08-08,Seattle,North,Furniture,676.77,,S001,2023-02-05 09:38:00
+17,user17@example.com,user_17,34,Premium,2023-11-04,Phoenix,East,Furniture,,pending,S018,2024-06-07 17:36:00
+586,user586@example.com,,37,Premium,2023-05-22,Los Angeles,North,Books,1218.5,active,S019,2024-02-14 18:58:00
+223,user223@example.com,user_223,65,Basic,2023-06-27,Miami,West,Sports,,,S003,2023-02-27 10:22:00
+837,user837@example.com,user_837,22,Premium,2024-10-30,Denver,West,Toys,,active,S011,2024-07-06 18:09:00
+335,user335@example.com,user_335,18,Standard,2024-02-07,Miami,West,Books,1181.69,inactive,S005,2023-12-11 02:30:00
+586,user586@example.com,user_586,31,Premium,2024-02-13,Boston,South,Food,726.57,inactive,S016,2024-02-09 20:36:00
+201,user201@example.com,user_201,48,Premium,2023-09-06,Chicago,North,Toys,1386.97,active,S004,2024-11-18 13:27:00
+375,user375@example.com,user_375,53,Standard,2023-01-25,Los Angeles,East,Furniture,1485.34,,S020,2023-05-30 14:02:00
+838,user838@example.com,user_838,24,Standard,2023-03-29,Chicago,West,Books,1390.83,pending,S001,2023-12-18 22:51:00
+114,user114@example.com,user_114,36,Premium,2024-07-04,Phoenix,East,Sports,938.33,inactive,S001,2024-01-21 18:57:00
+680,user680@example.com,user_680,18,Basic,2023-07-25,Denver,North,Electronics,1418.31,active,S013,2024-11-07 08:42:00
+676,user676@example.com,user_676,33,Standard,2024-01-31,Phoenix,South,Clothing,732.15,active,S006,2023-07-23 16:29:00
+575,user575@example.com,,30,Standard,2023-11-09,Dallas,South,Toys,37.37,pending,S012,2024-10-02 09:15:00
+514,user514@example.com,user_514,31,Basic,2023-01-31,Boston,North,Books,1346.79,inactive,S003,2024-01-27 16:43:00
+628,user628@example.com,user_628,41,Premium,2024-08-09,Houston,South,Sports,500.63,inactive,S007,2024-10-30 04:37:00
+555,user555@example.com,user_555,23,Basic,2024-12-06,Boston,East,Toys,1463.91,inactive,S019,2023-06-11 10:04:00
+571,user571@example.com,user_571,26,Basic,2023-05-30,New York,North,Toys,461.99,pending,S005,2023-07-12 03:08:00
+190,,user_190,54,Basic,2024-09-12,Denver,East,Books,48.87,active,S016,2023-05-18 16:54:00
+620,user620@example.com,user_620,26,Basic,2024-05-18,Miami,East,Food,58.02,active,S009,2024-02-27 07:47:00
+688,user688@example.com,user_688,19,Premium,2024-03-25,Denver,South,Furniture,1332.5,,S013,2023-02-12 19:47:00
+845,user845@example.com,user_845,54,Standard,2024-08-08,Denver,West,Clothing,1242.25,active,S008,2024-06-15 17:25:00
+753,,user_753,63,Standard,2023-02-20,Phoenix,North,Beauty,463.79,pending,S015,2023-06-20 13:18:00
+628,user628@example.com,user_628,24,Basic,2024-10-23,Miami,West,Clothing,882.32,inactive,S013,2024-02-28 10:28:00
+26,user26@example.com,user_26,60,Premium,2024-04-10,Chicago,North,Furniture,1361.67,inactive,S004,2023-04-04 03:45:00
+461,user461@example.com,user_461,60,Basic,2024-06-07,Denver,East,Toys,75.42,inactive,S011,2024-08-02 21:55:00
+154,user154@example.com,user_154,64,Standard,2023-02-22,Seattle,North,Sports,1441.84,pending,S006,2023-05-01 04:12:00
+4,user4@example.com,user_4,44,Basic,2024-05-25,Boston,West,Beauty,887.4,,S015,2024-02-24 14:05:00
+616,user616@example.com,user_616,50,Basic,2024-09-26,Boston,East,Electronics,92.05,pending,S002,2023-05-29 01:42:00
+592,user592@example.com,user_592,20,Premium,2023-04-22,Seattle,East,Food,920.52,inactive,S015,2024-08-15 11:59:00
+37,user37@example.com,user_37,38,Basic,2023-03-11,Seattle,West,Sports,191.81,pending,S011,2024-06-23 13:33:00
+215,user215@example.com,user_215,21,Standard,2024-10-06,Boston,West,Beauty,911.12,pending,S014,2024-09-15 10:16:00
+539,user539@example.com,user_539,23,Standard,2024-07-30,Miami,South,Beauty,1326.66,inactive,S010,2023-07-18 00:07:00
+25,user25@example.com,user_25,62,Premium,2024-09-22,Seattle,South,Electronics,845.02,inactive,S001,2024-10-17 06:44:00
+289,user289@example.com,user_289,34,Standard,2024-07-17,Dallas,West,Clothing,518.63,active,S006,2023-07-18 10:53:00
+347,user347@example.com,user_347,45,Premium,2024-10-23,Houston,South,Food,1339.17,pending,S015,2024-02-28 23:03:00
+534,user534@example.com,user_534,35,Standard,2024-07-02,New York,East,Furniture,1333.16,pending,S003,2023-06-02 08:53:00
+32,user32@example.com,user_32,49,Premium,2024-08-07,Denver,South,Food,1298.24,pending,S011,2024-12-27 01:17:00
+424,user424@example.com,user_424,38,Basic,2023-11-06,Phoenix,North,Food,1179.57,inactive,S003,2024-03-30 16:01:00
+819,user819@example.com,user_819,27,Basic,2024-05-10,Boston,North,Furniture,1308.98,inactive,S007,2023-02-07 14:24:00
+731,user731@example.com,user_731,34,Premium,2024-12-04,Denver,West,Furniture,78.75,pending,S001,2024-08-14 09:40:00
+215,user215@example.com,user_215,32,Standard,2023-11-23,Miami,West,Sports,417.72,active,S020,2024-07-27 16:06:00
+212,user212@example.com,user_212,32,Premium,2024-12-22,Los Angeles,East,Food,923.76,pending,S018,2024-03-30 01:08:00
+30,user30@example.com,user_30,21,Basic,2023-02-25,Chicago,South,Toys,898.22,,S020,2023-12-31 09:21:00
+838,user838@example.com,user_838,49,Premium,2024-04-21,Denver,East,Clothing,1380.34,,S004,2024-04-11 09:43:00
+660,user660@example.com,user_660,29,Premium,2023-05-28,Denver,North,Furniture,1052.43,pending,S011,2024-04-09 15:01:00
+67,user67@example.com,user_67,44,Premium,2023-10-17,Dallas,East,Clothing,1074.27,active,S011,2024-07-23 20:04:00
+812,user812@example.com,user_812,52,Basic,2023-09-02,Denver,East,Food,581.89,pending,S007,2024-12-11 18:27:00
+804,user804@example.com,user_804,36,Standard,2024-12-11,Phoenix,East,Clothing,1070.74,,S004,2024-08-29 19:29:00
+334,user334@example.com,user_334,26,Basic,2024-02-20,Chicago,West,Toys,971.03,active,S003,2023-08-11 04:56:00
+595,user595@example.com,user_595,15,Premium,2024-11-07,Houston,South,Sports,871.12,inactive,S007,2024-11-28 10:19:00
+584,user584@example.com,user_584,42,Standard,2023-12-19,Chicago,West,Toys,1280.23,active,S012,2024-07-16 01:00:00
+721,user721@example.com,user_721,22,Basic,2023-02-01,Phoenix,South,Toys,1070.54,,S013,2024-03-21 17:13:00
+679,user679@example.com,user_679,50,Basic,2024-01-04,Seattle,East,Sports,1008.4,inactive,S001,2023-03-15 20:01:00
+148,user148@example.com,user_148,42,Premium,2023-03-28,Houston,South,Beauty,1046.13,,S020,2023-07-04 14:32:00
+435,user435@example.com,user_435,37,Premium,2023-07-10,Seattle,West,Beauty,362.76,pending,S014,2024-07-13 18:23:00
+35,user35@example.com,user_35,60,Basic,2023-04-26,Denver,South,Clothing,1099.63,pending,S015,2024-06-13 02:33:00
+625,user625@example.com,user_625,62,Standard,2024-11-15,Chicago,North,Electronics,807.2,active,S016,2024-04-09 16:57:00
+481,user481@example.com,user_481,37,Basic,2023-10-24,Houston,West,Sports,849.92,active,S016,2024-08-15 05:36:00
+53,user53@example.com,user_53,62,Standard,2023-01-28,Los Angeles,South,Clothing,124.52,pending,S009,2023-05-16 19:17:00
+282,user282@example.com,,22,Standard,2023-06-28,Denver,East,Beauty,271.35,inactive,S016,2023-07-05 16:55:00
+34,user34@example.com,user_34,24,Standard,2023-06-07,Miami,South,Toys,665.88,inactive,S007,2024-08-14 23:53:00
+354,user354@example.com,user_354,22,Premium,2023-06-21,Miami,South,Beauty,1121.76,inactive,S013,2024-11-30 22:24:00
+486,user486@example.com,user_486,42,Premium,2023-10-23,Miami,South,Furniture,1027.49,active,S004,2024-06-28 20:22:00
+443,user443@example.com,user_443,32,Basic,2023-10-04,Los Angeles,West,Sports,592.82,inactive,S019,2023-07-19 16:21:00
+694,user694@example.com,user_694,50,Premium,2024-11-19,New York,West,Electronics,792.64,,S012,2023-08-13 23:18:00
+258,user258@example.com,,20,Premium,2024-08-31,Phoenix,West,Clothing,910.98,,S019,2023-07-09 03:44:00
+189,user189@example.com,user_189,19,Standard,2024-04-09,Los Angeles,South,Furniture,1173.29,pending,S002,2024-01-27 12:21:00
+62,user62@example.com,user_62,26,Basic,2023-03-13,Miami,East,Toys,743.17,inactive,S018,2024-03-17 06:39:00
+659,user659@example.com,user_659,31,Premium,2023-02-05,Chicago,West,Sports,37.96,,S005,2024-10-30 20:00:00
+39,user39@example.com,user_39,59,Basic,2024-02-05,Denver,West,Beauty,611.83,active,S018,2023-08-20 00:24:00
+706,user706@example.com,user_706,51,Standard,2024-01-03,Dallas,North,Toys,,active,S012,2024-07-01 10:05:00
+471,user471@example.com,user_471,27,Premium,2024-07-21,New York,South,Books,591.26,active,S012,2024-05-13 02:56:00
+648,user648@example.com,user_648,17,Premium,2023-01-26,Denver,East,Beauty,1191.18,pending,S016,2024-06-30 14:01:00
+38,user38@example.com,user_38,61,Premium,2024-02-20,Chicago,East,Beauty,1306.6,inactive,S019,2023-08-27 02:02:00
+754,user754@example.com,user_754,45,Standard,2023-02-16,Phoenix,East,Electronics,84.44,pending,S004,2024-04-12 19:10:00
+606,user606@example.com,user_606,22,Basic,2024-09-01,Denver,East,Clothing,645.06,,S011,2023-05-04 21:36:00
+559,user559@example.com,user_559,65,Premium,2023-02-16,Denver,East,Furniture,418.1,,S006,2024-12-14 11:35:00
+169,user169@example.com,user_169,17,Premium,2023-04-13,Denver,South,Food,,,S003,2023-01-07 00:11:00
+92,user92@example.com,user_92,33,Basic,2024-12-11,Miami,East,Books,413.72,,S014,2023-09-02 05:39:00
+709,,user_709,46,Standard,2023-04-01,Los Angeles,North,Toys,,inactive,S007,2023-05-01 16:06:00
+634,user634@example.com,user_634,49,Standard,2023-08-13,Miami,East,Sports,,active,S005,2024-12-02 15:31:00
+181,user181@example.com,user_181,18,Standard,2024-01-08,Los Angeles,East,Toys,929.06,,S002,2023-04-17 23:03:00
+551,user551@example.com,user_551,46,Standard,2023-04-29,Chicago,East,Beauty,495.7,inactive,S011,2023-08-24 03:20:00
+234,user234@example.com,user_234,27,Basic,2023-08-14,Chicago,South,Beauty,,,S005,2023-08-10 19:29:00
+183,user183@example.com,user_183,61,Premium,2024-10-09,Dallas,North,Books,57.82,active,S009,2023-05-20 03:54:00
+477,user477@example.com,user_477,36,Premium,2023-10-30,Denver,East,Food,833.61,inactive,S003,2024-02-26 16:31:00
+222,user222@example.com,user_222,32,Premium,2024-03-14,Phoenix,East,Furniture,341.39,inactive,S019,2023-01-06 13:02:00
+42,user42@example.com,user_42,47,Premium,2024-03-11,Boston,South,Beauty,1048.01,active,S015,2024-05-22 07:05:00
+572,user572@example.com,user_572,41,Premium,2023-05-16,Dallas,North,Books,145.19,,S010,2023-06-15 22:29:00
+585,user585@example.com,,44,Basic,2023-05-22,Seattle,East,Furniture,1058.81,active,S003,2024-01-30 22:21:00
+544,,user_544,32,Standard,2024-09-19,Boston,East,Clothing,510.19,active,S017,2024-11-21 11:56:00
+53,user53@example.com,user_53,54,Premium,2024-01-10,Dallas,East,Clothing,1162.63,inactive,S011,2023-09-02 17:07:00
+665,user665@example.com,user_665,52,Standard,2023-08-03,Phoenix,North,Furniture,760.31,,S009,2023-02-25 02:23:00
+354,user354@example.com,user_354,22,Basic,2024-12-27,Boston,North,Beauty,1201.86,active,S007,2024-04-13 02:05:00
+401,user401@example.com,user_401,19,Premium,2023-06-18,Los Angeles,West,Food,1313.74,active,S010,2024-03-02 21:34:00
+136,user136@example.com,user_136,62,Standard,2023-01-22,Los Angeles,East,Clothing,,inactive,S017,2024-10-22 10:26:00
+593,user593@example.com,user_593,35,Basic,2024-08-30,Boston,South,Beauty,206.61,pending,S006,2023-09-24 07:30:00
+381,user381@example.com,user_381,18,Premium,2023-12-28,Los Angeles,South,Food,249.58,pending,S006,2023-06-29 22:44:00
+683,user683@example.com,user_683,22,Premium,2023-11-21,Denver,East,Beauty,284.9,active,S011,2023-12-19 04:23:00
+460,user460@example.com,user_460,34,Premium,2023-01-26,Seattle,South,Food,1392.44,inactive,S001,2024-07-13 16:21:00
+663,user663@example.com,user_663,33,Standard,2024-11-13,Houston,South,Furniture,1100.14,active,S005,2024-11-25 17:07:00
+316,,user_316,29,Basic,2024-01-01,Chicago,North,Electronics,300.77,inactive,S009,2023-07-20 00:05:00
+552,user552@example.com,user_552,20,Standard,2024-02-08,Phoenix,South,Furniture,772.22,active,S012,2024-02-12 04:45:00
+438,user438@example.com,user_438,33,Basic,2023-12-26,Los Angeles,South,Clothing,1332.83,,S015,2023-10-23 05:51:00
+746,user746@example.com,user_746,41,Premium,2024-08-24,Denver,West,Food,717.17,pending,S003,2024-08-27 12:05:00
+7,user7@example.com,user_7,41,Premium,2024-07-23,Miami,East,Books,578.84,,S002,2023-11-06 18:19:00
+506,user506@example.com,user_506,16,Premium,2023-06-07,Los Angeles,North,Beauty,1002.21,pending,S014,2023-07-03 15:58:00
+705,user705@example.com,,63,Basic,2024-05-19,Chicago,North,Beauty,1303.84,,S004,2024-01-18 16:46:00
+590,,user_590,52,Premium,2023-05-30,Dallas,South,Food,88.8,pending,S014,2024-10-13 11:03:00
+297,user297@example.com,user_297,19,Standard,2023-07-18,Houston,West,Food,1309.94,pending,S009,2024-12-02 22:44:00
+372,user372@example.com,user_372,24,Premium,2023-05-21,Boston,North,Furniture,623.87,inactive,S004,2023-08-12 04:32:00
+227,user227@example.com,user_227,50,Standard,2024-12-07,Boston,West,Toys,123.84,inactive,S001,2024-05-06 11:19:00
+708,user708@example.com,user_708,53,Standard,2023-12-17,Houston,North,Electronics,186.71,inactive,S005,2024-12-05 07:19:00
+129,user129@example.com,user_129,42,Standard,2023-04-25,Chicago,West,Beauty,73.35,active,S002,2024-11-06 16:37:00
+61,user61@example.com,user_61,17,Premium,2023-11-05,New York,West,Clothing,316.05,inactive,S006,2024-11-17 11:01:00
+93,user93@example.com,user_93,32,Standard,2023-12-23,Dallas,East,Books,111.82,active,S017,2023-08-11 22:12:00
+289,user289@example.com,user_289,15,Standard,2023-04-12,Phoenix,South,Furniture,285.84,active,S006,2023-12-30 12:27:00
+220,user220@example.com,user_220,63,Basic,2023-05-07,Miami,West,Food,548.26,pending,S018,2023-02-11 02:20:00
+506,user506@example.com,user_506,53,Standard,2023-11-16,Miami,East,Toys,1284.49,inactive,S003,2024-05-02 21:23:00
+184,,user_184,58,Premium,2024-02-10,Miami,West,Clothing,606.93,active,S006,2023-03-08 11:12:00
+347,user347@example.com,user_347,40,Premium,2023-08-27,Seattle,South,Sports,1151.3,pending,S013,2023-12-31 15:42:00
+618,user618@example.com,user_618,47,Basic,2023-05-31,Miami,West,Clothing,750.94,inactive,S001,2023-04-12 23:03:00
+70,user70@example.com,,26,Basic,2024-09-11,Dallas,East,Sports,153.54,active,S017,2024-05-19 14:12:00
+301,user301@example.com,user_301,31,Standard,2023-12-18,Boston,West,Electronics,1321.39,active,S013,2024-04-05 10:54:00
+386,user386@example.com,,26,Standard,2024-11-06,Los Angeles,East,Beauty,475.56,,S016,2023-04-23 18:43:00
+503,user503@example.com,user_503,51,Basic,2024-05-02,Boston,East,Electronics,747.09,,S020,2024-11-23 11:49:00
+292,user292@example.com,,17,Premium,2024-01-11,Dallas,West,Furniture,647.94,pending,S014,2023-12-26 01:42:00
+251,user251@example.com,user_251,52,Premium,2024-12-05,Chicago,North,Clothing,39.37,pending,S002,2024-04-16 21:55:00
+433,user433@example.com,user_433,32,Premium,2024-12-13,Miami,West,Furniture,591.55,active,S016,2023-04-13 22:43:00
+211,user211@example.com,user_211,63,Standard,2023-12-14,Houston,North,Furniture,310.62,active,S018,2023-08-08 09:16:00
+49,user49@example.com,user_49,29,Standard,2023-04-05,Denver,West,Furniture,853.98,,S014,2023-08-03 11:50:00
+79,user79@example.com,user_79,34,Basic,2024-11-10,Boston,North,Books,384.38,,S018,2023-07-04 00:40:00
+721,user721@example.com,user_721,46,Premium,2024-11-07,Miami,North,Toys,1092.66,active,S017,2023-07-25 11:29:00
+152,user152@example.com,user_152,63,Basic,2024-03-21,Seattle,North,Clothing,1270.49,pending,S010,2024-10-23 05:16:00
+704,user704@example.com,user_704,22,Premium,2023-07-16,New York,East,Sports,844.14,,S014,2024-10-24 01:12:00
+164,user164@example.com,,65,Basic,2024-11-05,Boston,East,Electronics,733.9,active,S002,2023-03-27 10:38:00
+306,user306@example.com,user_306,41,Basic,2024-11-18,Chicago,South,Food,860.75,active,S017,2024-11-11 18:49:00
+538,user538@example.com,user_538,30,Standard,2023-05-06,Dallas,North,Toys,1118.5,,S007,2023-05-28 03:11:00
+220,user220@example.com,user_220,31,Standard,2023-02-27,Miami,North,Clothing,641.43,inactive,S009,2023-05-29 11:30:00
+733,user733@example.com,user_733,56,Standard,2023-02-05,New York,East,Sports,470.81,pending,S004,2024-07-01 07:54:00
+454,user454@example.com,user_454,40,Basic,2023-11-05,Chicago,East,Sports,1336.47,,S011,2024-10-21 13:50:00
+35,user35@example.com,user_35,64,Basic,2024-04-27,Seattle,North,Toys,1232.16,inactive,S009,2024-06-02 02:22:00
+431,user431@example.com,user_431,62,Basic,2024-04-09,New York,West,Food,1188.62,inactive,S001,2024-02-15 06:40:00
+313,user313@example.com,user_313,25,Premium,2024-06-12,Houston,South,Furniture,1311.52,inactive,S009,2023-06-27 21:37:00
+847,user847@example.com,user_847,20,Basic,2024-01-12,Houston,South,Toys,1327.67,inactive,S001,2023-01-24 17:41:00
+627,user627@example.com,user_627,44,Premium,2023-09-26,Houston,West,Toys,904.59,inactive,S003,2024-01-12 05:36:00
+121,,user_121,64,Basic,2024-11-20,Miami,West,Books,293.91,pending,S010,2024-05-21 12:08:00
+442,user442@example.com,user_442,33,Standard,2024-11-24,Phoenix,South,Food,227.45,pending,S009,2023-08-30 19:28:00
+255,user255@example.com,user_255,44,Premium,2023-01-11,Miami,East,Furniture,602.36,inactive,S013,2024-12-26 13:47:00
+612,user612@example.com,user_612,18,Premium,2023-12-07,Phoenix,South,Furniture,1409.59,active,S001,2023-09-17 16:39:00
+391,user391@example.com,user_391,38,Premium,2024-07-26,New York,East,Sports,744.33,pending,S015,2023-05-16 02:20:00
+728,user728@example.com,user_728,22,Basic,2023-02-15,Houston,South,Sports,1390.09,pending,S009,2024-09-19 08:33:00
+321,user321@example.com,user_321,62,Basic,2023-06-04,Boston,South,Electronics,91.31,inactive,S002,2024-04-26 08:10:00
+723,user723@example.com,user_723,46,Premium,2024-03-28,Dallas,South,Beauty,1270.3,inactive,S004,2023-12-24 02:13:00
+291,user291@example.com,user_291,47,Basic,2024-07-30,Denver,East,Electronics,860.47,,S003,2023-09-10 15:43:00
+97,user97@example.com,,58,Standard,2023-05-05,Seattle,North,Clothing,239.13,active,S015,2024-12-25 21:30:00
+465,user465@example.com,user_465,57,Premium,2023-12-04,New York,South,Furniture,1499.73,inactive,S007,2023-02-19 20:18:00
+331,user331@example.com,user_331,50,Standard,2024-01-26,Chicago,South,Sports,1447.92,,S003,2023-01-22 06:10:00
+398,user398@example.com,user_398,63,Standard,2023-06-07,Chicago,North,Beauty,1106.48,pending,S020,2023-05-15 11:42:00
+99,user99@example.com,user_99,46,Basic,2024-02-02,Miami,North,Toys,639.58,pending,S020,2023-07-10 13:40:00
+437,user437@example.com,user_437,44,Standard,2023-08-18,Houston,South,Clothing,661.66,,S010,2023-06-02 04:43:00
+308,user308@example.com,user_308,33,Standard,2023-02-18,Boston,West,Electronics,770.87,,S004,2024-04-20 21:46:00
+583,user583@example.com,user_583,52,Premium,2024-05-30,New York,West,Beauty,281.49,,S002,2023-03-27 13:56:00
+722,user722@example.com,user_722,44,Standard,2024-04-05,Denver,North,Furniture,1308.3,inactive,S007,2023-07-09 02:47:00
+619,user619@example.com,user_619,42,Standard,2023-01-19,New York,South,Clothing,,,S015,2024-12-09 12:55:00
+674,user674@example.com,user_674,46,Basic,2024-09-25,Denver,North,Toys,140.58,inactive,S001,2023-07-15 03:52:00
+17,user17@example.com,user_17,16,Premium,2024-05-07,Houston,East,Toys,1288.7,inactive,S003,2023-11-05 14:09:00
+486,user486@example.com,user_486,24,Standard,2024-12-20,Miami,South,Beauty,,,S019,2023-09-06 06:18:00
+584,user584@example.com,user_584,36,Premium,2023-04-16,Seattle,South,Beauty,897.8,pending,S002,2024-05-14 12:31:00
+526,user526@example.com,user_526,58,Basic,2023-08-26,New York,West,Toys,834.35,pending,S014,2024-04-29 03:31:00
+638,user638@example.com,user_638,59,Basic,2023-01-22,Houston,North,Books,662.78,inactive,S019,2024-12-02 10:58:00
+617,user617@example.com,user_617,44,Premium,2023-10-28,Seattle,South,Furniture,1201.64,inactive,S020,2023-08-01 09:44:00
+768,user768@example.com,user_768,26,Premium,2023-06-10,Denver,South,Clothing,1415.15,,S010,2023-08-29 06:35:00
+49,user49@example.com,user_49,31,Basic,2024-11-24,Houston,East,Electronics,513.22,active,S020,2023-08-21 03:35:00
+230,user230@example.com,user_230,65,Basic,2023-02-17,Boston,North,Food,1311.81,active,S002,2024-03-24 14:53:00
+774,user774@example.com,user_774,54,Standard,2023-04-15,Boston,West,Clothing,185.91,inactive,S012,2023-06-10 23:18:00
+726,user726@example.com,user_726,61,Premium,2023-06-07,Dallas,North,Food,310.82,,S001,2023-09-09 15:21:00
+294,user294@example.com,user_294,38,Standard,2024-02-29,Dallas,East,Food,799.18,inactive,S005,2024-03-15 13:58:00
+420,user420@example.com,user_420,48,Standard,2024-01-06,New York,South,Food,1079.26,active,S003,2023-12-13 10:25:00
+791,user791@example.com,user_791,63,Premium,2024-11-07,Houston,West,Sports,1329.82,pending,S011,2023-12-19 00:52:00
+287,user287@example.com,user_287,24,Standard,2024-02-18,Miami,East,Beauty,1332.64,,S007,2023-11-05 02:02:00
+551,user551@example.com,user_551,62,Premium,2024-06-16,Boston,North,Books,832.16,pending,S006,2023-01-24 00:56:00
+816,user816@example.com,user_816,64,Basic,2024-03-08,Boston,West,Electronics,397.04,pending,S004,2023-02-18 20:07:00
+460,user460@example.com,user_460,44,Basic,2023-08-30,Denver,East,Furniture,1003.71,inactive,S013,2024-06-16 23:15:00
+108,user108@example.com,user_108,64,Basic,2024-04-10,Chicago,East,Toys,132.1,active,S014,2023-05-14 15:13:00
+457,user457@example.com,user_457,40,Standard,2024-07-26,Boston,South,Sports,958.33,,S016,2024-03-02 05:09:00
+518,user518@example.com,user_518,23,Standard,2024-06-09,Boston,West,Books,58.59,inactive,S018,2024-01-14 03:38:00
+419,user419@example.com,user_419,33,Premium,2024-06-19,Houston,West,Furniture,567.95,pending,S016,2023-01-29 04:09:00
+803,user803@example.com,user_803,34,Basic,2023-08-09,Houston,South,Electronics,529.49,active,S014,2024-05-07 18:19:00
+580,user580@example.com,user_580,39,Basic,2024-09-12,Houston,East,Beauty,1004.16,inactive,S011,2023-04-02 19:42:00
+639,user639@example.com,user_639,40,Basic,2024-07-07,New York,South,Sports,1300.27,active,S019,2024-10-07 22:19:00
+575,user575@example.com,user_575,20,Premium,2024-09-25,Boston,West,Books,758.93,active,S004,2024-11-05 17:11:00
+20,user20@example.com,user_20,60,Standard,2024-03-30,Chicago,North,Toys,742.29,active,S011,2024-03-23 05:26:00
+25,user25@example.com,user_25,31,Premium,2023-04-28,Chicago,East,Sports,390.78,active,S005,2023-11-11 13:43:00
+174,user174@example.com,user_174,26,Premium,2023-03-01,Los Angeles,South,Clothing,625.11,pending,S009,2024-01-20 03:03:00
+208,user208@example.com,user_208,30,Basic,2024-06-04,Boston,South,Clothing,484.32,,S003,2024-05-10 00:26:00
+649,user649@example.com,user_649,32,Standard,2024-08-23,Chicago,East,Food,616.05,active,S017,2023-07-28 04:23:00
+554,user554@example.com,user_554,49,Basic,2024-07-22,Miami,West,Electronics,1442.06,pending,S006,2023-01-01 01:59:00
+494,user494@example.com,user_494,58,Basic,2023-12-26,Phoenix,North,Electronics,805.79,active,S010,2023-04-02 12:44:00
+126,user126@example.com,user_126,32,Basic,2023-08-04,Denver,North,Furniture,1469.66,,S009,2023-09-09 21:20:00
+350,user350@example.com,user_350,36,Premium,2024-12-09,Houston,West,Beauty,,active,S006,2024-02-28 17:57:00
+714,user714@example.com,user_714,49,Premium,2024-10-26,Chicago,West,Beauty,535.96,,S020,2024-01-02 12:11:00
+787,user787@example.com,user_787,22,Basic,2024-01-15,Phoenix,South,Electronics,39.47,pending,S012,2023-07-16 02:52:00
+629,user629@example.com,user_629,29,Premium,2024-05-20,Dallas,West,Sports,1059.03,inactive,S001,2023-07-20 20:25:00
+114,user114@example.com,user_114,46,Premium,2024-07-19,Phoenix,East,Clothing,1121.5,inactive,S009,2024-08-06 07:56:00
+536,user536@example.com,user_536,58,Premium,2024-12-10,Boston,North,Beauty,,,S002,2023-11-27 13:54:00
+417,user417@example.com,user_417,44,Basic,2024-01-06,Boston,West,Books,,,S018,2024-04-04 10:00:00
+402,user402@example.com,user_402,51,Premium,2023-08-20,Seattle,West,Books,500.54,active,S004,2023-01-29 15:27:00
+828,,user_828,36,Basic,2023-09-11,Chicago,South,Books,1250.45,pending,S017,2023-08-31 02:49:00
+615,user615@example.com,user_615,55,Basic,2024-08-15,Chicago,West,Electronics,572.32,active,S005,2023-03-05 14:03:00
+309,user309@example.com,user_309,21,Standard,2023-02-27,Boston,West,Sports,608.51,,S008,2024-09-05 21:39:00
+11,user11@example.com,user_11,42,Standard,2024-09-26,Chicago,North,Electronics,499.01,inactive,S004,2023-04-16 00:38:00
+731,user731@example.com,user_731,27,Standard,2023-05-10,Boston,North,Furniture,1089.69,,S006,2023-09-06 04:51:00
+46,user46@example.com,user_46,42,Standard,2024-10-29,Dallas,North,Food,469.92,pending,S010,2024-01-13 00:33:00
+601,user601@example.com,user_601,30,Standard,2024-07-26,New York,South,Furniture,308.55,inactive,S003,2023-12-16 06:42:00
+488,user488@example.com,user_488,53,Standard,2023-12-06,Denver,North,Sports,251.8,,S002,2024-05-22 07:58:00
+4,user4@example.com,user_4,44,Standard,2023-08-07,Phoenix,South,Furniture,570.11,,S006,2023-01-07 11:00:00
+76,user76@example.com,user_76,24,Basic,2024-03-26,Phoenix,North,Electronics,306.69,pending,S006,2023-08-13 08:46:00
+179,user179@example.com,user_179,26,Premium,2023-01-23,Houston,North,Clothing,,inactive,S013,2024-11-01 03:21:00
+216,user216@example.com,user_216,38,Standard,2023-06-25,Boston,South,Clothing,1325.26,inactive,S007,2023-07-16 17:24:00
+712,user712@example.com,user_712,55,Premium,2023-02-17,Denver,East,Sports,498.24,active,S009,2023-05-10 16:37:00
+501,user501@example.com,user_501,45,Standard,2024-09-21,Chicago,East,Toys,971.16,pending,S016,2024-06-15 14:11:00
+330,user330@example.com,user_330,45,Standard,2024-05-21,Miami,North,Toys,1188.03,active,S007,2023-08-13 06:28:00
+241,user241@example.com,user_241,39,Standard,2023-06-10,Dallas,North,Clothing,135.2,,S017,2023-12-27 07:37:00
+43,user43@example.com,user_43,42,Basic,2024-04-23,Seattle,South,Furniture,482.36,,S001,2023-07-03 14:14:00
+272,user272@example.com,user_272,20,Basic,2024-05-28,Boston,West,Sports,156.63,active,S012,2023-02-09 17:12:00
+342,user342@example.com,user_342,34,Standard,2024-11-30,Los Angeles,East,Food,1131.05,pending,S001,2023-11-03 09:52:00
+355,user355@example.com,user_355,40,Standard,2024-11-02,New York,South,Food,349.09,inactive,S016,2023-08-28 16:37:00
+805,user805@example.com,user_805,44,Basic,2023-03-29,Dallas,East,Toys,1049.93,inactive,S015,2024-04-05 17:01:00
+384,user384@example.com,user_384,34,Standard,2023-01-10,Miami,North,Furniture,644.32,,S018,2023-11-03 10:37:00
+24,user24@example.com,,23,Premium,2023-12-05,Denver,South,Toys,592.05,,S007,2024-05-01 03:21:00
+584,user584@example.com,user_584,34,Premium,2023-06-25,Chicago,East,Electronics,909.01,active,S006,2023-07-23 02:58:00
+396,user396@example.com,user_396,57,Standard,2023-03-13,Miami,West,Furniture,266.02,,S013,2023-06-10 03:08:00
+550,user550@example.com,user_550,39,Premium,2023-05-14,Phoenix,North,Toys,1000.54,inactive,S020,2024-08-11 09:37:00
+208,user208@example.com,user_208,32,Premium,2023-01-08,Houston,South,Clothing,911.22,inactive,S017,2023-12-03 18:56:00
+503,user503@example.com,user_503,62,Premium,2023-10-22,Miami,North,Sports,1236.91,inactive,S014,2023-09-13 05:57:00
+633,user633@example.com,user_633,57,Premium,2024-12-16,Denver,West,Toys,75.06,inactive,S009,2024-10-05 17:18:00
+683,user683@example.com,user_683,61,Premium,2024-05-20,Seattle,West,Furniture,166.78,pending,S014,2024-04-06 05:16:00
+213,user213@example.com,user_213,19,Standard,2024-12-12,Miami,South,Furniture,1285.1,,S002,2023-01-11 08:07:00
+727,user727@example.com,user_727,62,Basic,2024-05-11,Miami,West,Clothing,371.02,,S005,2024-04-27 08:53:00
+166,user166@example.com,,21,Premium,2023-10-29,Chicago,South,Food,1147.75,pending,S005,2024-03-27 11:11:00
+222,user222@example.com,user_222,49,Premium,2024-03-28,New York,West,Toys,671.54,active,S002,2024-01-22 06:59:00
+256,user256@example.com,user_256,20,Premium,2024-03-07,New York,West,Furniture,1023.14,active,S008,2023-04-09 21:10:00
+742,user742@example.com,user_742,21,Basic,2023-11-27,Boston,East,Books,598.65,,S004,2023-08-26 06:06:00
+366,user366@example.com,,56,Basic,2023-01-13,Seattle,East,Beauty,990.36,pending,S020,2024-01-13 01:04:00
+224,user224@example.com,user_224,46,Premium,2024-12-30,Boston,East,Sports,903.8,,S005,2023-12-07 05:40:00
+780,user780@example.com,user_780,57,Basic,2023-03-11,Dallas,West,Beauty,964.48,inactive,S017,2024-08-24 22:00:00
+239,,user_239,22,Basic,2023-08-31,Seattle,East,Clothing,,pending,S016,2023-10-31 06:09:00
+385,user385@example.com,,61,Standard,2024-03-30,Dallas,East,Sports,1182.59,active,S017,2024-02-29 20:52:00
+296,user296@example.com,user_296,61,Basic,2023-12-17,Phoenix,East,Electronics,1000.86,inactive,S008,2024-09-14 12:33:00
+330,user330@example.com,user_330,19,Basic,2023-03-13,Phoenix,West,Food,197.09,inactive,S019,2024-07-16 06:15:00
+520,user520@example.com,user_520,34,Premium,2023-07-22,Phoenix,South,Food,461.62,,S007,2023-10-06 15:05:00
+369,user369@example.com,user_369,43,Basic,2024-06-01,Denver,South,Food,1192.4,active,S013,2024-03-13 02:48:00
+308,user308@example.com,user_308,61,Premium,2023-09-21,Seattle,South,Sports,568.97,,S003,2023-12-08 04:45:00
+481,user481@example.com,user_481,15,Premium,2024-05-27,Dallas,South,Toys,1411.02,pending,S013,2024-05-16 09:41:00
+603,user603@example.com,user_603,22,Basic,2024-08-02,Houston,East,Toys,1159.19,pending,S017,2024-12-27 15:40:00
+706,user706@example.com,user_706,39,Basic,2023-09-10,Phoenix,South,Electronics,548.51,active,S005,2023-09-25 19:29:00
+698,user698@example.com,user_698,52,Standard,2023-06-15,New York,West,Clothing,1376.16,,S019,2023-03-24 16:58:00
+194,user194@example.com,user_194,42,Basic,2024-12-09,Los Angeles,South,Sports,1131.17,active,S004,2024-10-13 18:49:00
+817,user817@example.com,user_817,62,Premium,2024-02-12,Los Angeles,West,Food,12.35,active,S014,2024-06-21 13:41:00
+296,user296@example.com,user_296,38,Premium,2024-12-21,Houston,East,Beauty,1423.24,,S019,2023-08-06 05:12:00
+61,user61@example.com,user_61,27,Basic,2024-02-23,Miami,West,Food,137.7,active,S009,2023-03-07 10:01:00
+600,user600@example.com,user_600,63,Premium,2023-01-10,New York,North,Electronics,1185.92,active,S004,2023-08-05 16:50:00
+8,user8@example.com,user_8,63,Basic,2024-05-12,Miami,North,Toys,1025.97,pending,S011,2023-09-03 11:42:00
+409,user409@example.com,user_409,37,Basic,2023-04-13,New York,South,Toys,1333.08,inactive,S001,2024-09-08 03:55:00
+544,user544@example.com,user_544,30,Basic,2024-04-07,Denver,South,Toys,14.66,pending,S001,2024-10-10 11:55:00
+47,user47@example.com,user_47,58,Basic,2023-08-28,Denver,South,Toys,1193.0,pending,S014,2024-05-02 21:54:00
+717,user717@example.com,user_717,33,Standard,2023-07-19,Houston,West,Food,139.76,,S006,2024-04-01 03:30:00
+679,user679@example.com,user_679,25,Standard,2024-12-17,Chicago,West,Toys,53.54,pending,S013,2023-10-15 07:46:00
+264,user264@example.com,user_264,57,Premium,2024-11-12,Houston,South,Clothing,505.87,inactive,S019,2024-09-07 02:41:00
+352,user352@example.com,user_352,62,Standard,2024-01-26,Boston,South,Books,182.38,active,S004,2023-04-02 10:47:00
+607,user607@example.com,user_607,22,Standard,2024-01-12,Houston,North,Toys,12.5,active,S019,2024-07-02 06:54:00
+398,user398@example.com,user_398,38,Standard,2023-05-10,Boston,East,Clothing,812.06,,S011,2023-05-29 09:53:00
+225,user225@example.com,user_225,53,Basic,2023-05-30,New York,North,Sports,1036.01,pending,S019,2024-05-04 20:53:00
+221,user221@example.com,user_221,39,Premium,2023-12-08,Houston,East,Books,88.32,inactive,S016,2024-02-06 09:52:00
+676,user676@example.com,user_676,16,Standard,2024-02-06,Dallas,South,Beauty,1138.99,,S003,2024-06-24 23:18:00
+290,user290@example.com,user_290,50,Basic,2023-04-10,Houston,North,Electronics,1067.29,,S006,2024-08-14 04:28:00
+713,user713@example.com,user_713,28,Premium,2023-07-20,New York,North,Clothing,1482.84,inactive,S013,2024-03-13 21:53:00
+173,user173@example.com,user_173,45,Premium,2023-02-23,Chicago,North,Toys,944.19,,S008,2023-02-04 03:15:00
+407,user407@example.com,user_407,26,Standard,2024-01-20,Chicago,South,Toys,983.26,pending,S001,2023-05-03 03:05:00
+125,user125@example.com,user_125,47,Premium,2023-01-24,Denver,South,Sports,150.88,inactive,S013,2024-05-10 20:44:00
+445,user445@example.com,user_445,35,Premium,2024-07-04,Houston,South,Electronics,1228.02,,S003,2024-06-15 18:34:00
+731,user731@example.com,user_731,63,Premium,2024-11-05,Chicago,East,Food,,,S011,2023-05-06 01:08:00
+589,user589@example.com,user_589,50,Basic,2023-02-05,Chicago,West,Sports,821.2,,S001,2023-09-12 09:02:00
+532,user532@example.com,user_532,49,Basic,2023-05-24,Denver,South,Furniture,1479.17,pending,S020,2024-07-05 16:13:00
+705,user705@example.com,user_705,30,Premium,2023-07-12,Houston,North,Books,907.2,inactive,S019,2024-01-03 08:08:00
+747,user747@example.com,user_747,31,Basic,2024-01-26,Houston,South,Beauty,388.73,,S005,2024-07-02 06:04:00
+645,user645@example.com,user_645,59,Standard,2023-07-17,Dallas,East,Toys,481.38,,S013,2023-01-27 19:15:00
+80,user80@example.com,user_80,58,Standard,2024-02-21,Chicago,North,Clothing,506.94,pending,S005,2023-08-20 08:00:00
+101,user101@example.com,user_101,39,Premium,2023-05-07,Houston,North,Beauty,529.86,pending,S018,2023-10-05 19:06:00
+50,user50@example.com,user_50,39,Premium,2023-12-20,Boston,South,Beauty,396.0,inactive,S005,2023-05-27 12:36:00
+754,user754@example.com,user_754,55,Basic,2024-12-25,Phoenix,South,Beauty,1479.51,,S017,2023-10-21 08:27:00
+534,user534@example.com,user_534,29,Basic,2024-10-12,Chicago,North,Toys,1269.42,active,S003,2023-09-03 02:10:00
+590,user590@example.com,user_590,50,Basic,2023-01-11,Seattle,East,Beauty,1030.83,active,S013,2023-01-15 19:12:00
+764,,user_764,49,Standard,2023-12-20,Phoenix,West,Beauty,1015.04,inactive,S006,2023-03-18 11:53:00
+137,user137@example.com,user_137,42,Basic,2024-01-24,Houston,North,Clothing,1021.8,active,S010,2023-11-03 15:18:00
+272,user272@example.com,user_272,51,Basic,2023-08-11,Los Angeles,West,Beauty,1274.04,active,S012,2023-01-07 19:29:00
+337,user337@example.com,user_337,37,Standard,2023-07-10,Seattle,North,Electronics,743.15,active,S017,2024-06-10 04:26:00
+127,user127@example.com,,64,Standard,2023-09-14,Phoenix,South,Toys,553.1,inactive,S018,2023-10-03 03:28:00
+673,user673@example.com,user_673,37,Standard,2024-03-20,New York,North,Books,434.5,inactive,S013,2024-03-07 23:21:00
+33,user33@example.com,user_33,45,Standard,2023-09-30,Chicago,South,Beauty,1201.73,inactive,S011,2024-02-14 16:46:00
+760,user760@example.com,user_760,22,Premium,2023-01-22,Houston,East,Furniture,1153.4,inactive,S002,2024-11-25 10:27:00
+612,user612@example.com,user_612,33,Basic,2024-05-12,Chicago,South,Books,1096.58,inactive,S008,2023-10-15 03:55:00
+270,user270@example.com,user_270,42,Premium,2024-04-30,Chicago,East,Books,890.88,inactive,S008,2023-05-04 04:25:00
+40,user40@example.com,user_40,24,Basic,2023-01-19,Denver,East,Clothing,576.73,pending,S008,2023-08-16 10:27:00
+491,user491@example.com,user_491,18,Basic,2023-04-23,Los Angeles,North,Sports,1070.26,inactive,S011,2023-02-18 05:02:00
+1,user1@example.com,user_1,28,Basic,2024-04-28,Los Angeles,West,Toys,1423.01,pending,S011,2023-11-08 03:06:00
+686,,user_686,23,Basic,2024-01-05,Dallas,North,Books,322.95,,S003,2023-04-19 04:40:00
+761,user761@example.com,user_761,56,Premium,2023-07-17,Miami,West,Clothing,932.33,pending,S016,2023-07-26 17:46:00
+158,,user_158,50,Standard,2023-09-16,Boston,North,Furniture,1078.82,,S003,2024-05-09 13:33:00
+516,user516@example.com,user_516,32,Standard,2023-05-13,Los Angeles,West,Electronics,1043.77,,S016,2024-12-02 17:55:00
+526,user526@example.com,user_526,63,Standard,2024-01-29,Boston,South,Toys,318.32,active,S006,2024-08-08 06:37:00
+714,,user_714,47,Basic,2024-05-30,Boston,North,Sports,451.58,pending,S018,2023-05-02 05:14:00
+47,user47@example.com,user_47,55,Premium,2023-10-12,Houston,North,Electronics,381.02,inactive,S018,2023-04-29 00:41:00
+356,user356@example.com,user_356,35,Premium,2024-12-23,Boston,North,Food,921.11,pending,S002,2024-10-02 00:52:00
+365,user365@example.com,user_365,26,Basic,2023-01-17,Boston,West,Toys,393.44,inactive,S015,2023-08-14 10:17:00
+209,user209@example.com,user_209,63,Basic,2023-06-09,Miami,East,Toys,1354.23,active,S016,2023-07-05 14:11:00
+836,user836@example.com,user_836,46,Standard,2023-07-04,Los Angeles,West,Sports,274.82,,S020,2023-07-12 02:09:00
+74,user74@example.com,user_74,56,Basic,2023-04-13,Boston,East,Electronics,573.03,active,S004,2023-01-14 20:59:00
+45,user45@example.com,user_45,32,Premium,2024-10-04,Denver,West,Electronics,168.45,pending,S003,2023-07-27 04:30:00
+778,user778@example.com,user_778,25,Basic,2023-12-06,Miami,East,Books,,pending,S018,2023-05-07 00:52:00
+46,user46@example.com,user_46,47,Basic,2023-05-26,New York,East,Electronics,584.22,pending,S010,2023-08-20 21:24:00
+704,user704@example.com,user_704,22,Basic,2023-06-23,Chicago,East,Clothing,429.9,active,S020,2023-12-08 03:23:00
+87,user87@example.com,user_87,26,Basic,2024-06-27,Dallas,East,Toys,1004.24,pending,S020,2023-10-21 11:56:00
+107,user107@example.com,user_107,38,Basic,2024-12-29,Chicago,West,Food,228.42,inactive,S013,2024-04-02 23:50:00
+805,user805@example.com,user_805,22,Standard,2024-03-13,Los Angeles,East,Clothing,200.03,,S012,2023-11-23 15:27:00
+493,user493@example.com,user_493,65,Standard,2023-12-08,Houston,East,Toys,750.68,,S018,2024-07-03 07:24:00
+86,user86@example.com,user_86,51,Standard,2023-08-13,Chicago,East,Furniture,,active,S012,2024-07-25 15:08:00
+113,user113@example.com,user_113,64,Premium,2023-10-29,Miami,East,Toys,1243.45,active,S005,2023-05-01 22:45:00
+147,user147@example.com,,42,Basic,2023-02-25,Chicago,West,Beauty,1307.01,active,S005,2024-01-10 04:05:00
+251,user251@example.com,user_251,41,Premium,2023-07-06,Miami,East,Sports,1086.61,,S001,2023-10-21 03:09:00
+62,user62@example.com,,63,Premium,2024-05-30,Houston,West,Toys,1023.06,,S018,2024-12-29 08:58:00
+586,user586@example.com,user_586,42,Premium,2023-10-06,Chicago,South,Food,606.6,active,S008,2024-02-06 05:52:00
+764,user764@example.com,user_764,19,Standard,2024-04-24,Miami,North,Toys,255.59,pending,S014,2023-07-19 08:06:00
+107,user107@example.com,user_107,36,Premium,2023-09-03,Los Angeles,East,Clothing,899.7,pending,S007,2024-07-18 06:40:00
+34,user34@example.com,user_34,51,Standard,2023-02-15,Denver,South,Electronics,,active,S010,2023-01-09 11:48:00
+290,user290@example.com,user_290,35,Basic,2023-12-31,Houston,West,Furniture,1114.76,active,S017,2023-06-03 00:37:00
+816,user816@example.com,user_816,17,Basic,2023-06-15,Houston,South,Clothing,149.0,inactive,S007,2024-11-28 20:09:00
+788,user788@example.com,user_788,47,Standard,2024-09-15,Boston,North,Beauty,515.14,pending,S020,2024-03-17 01:57:00
+730,user730@example.com,user_730,28,Standard,2024-09-13,Chicago,East,Beauty,32.26,pending,S018,2023-03-31 15:06:00
+466,user466@example.com,user_466,25,Premium,2023-10-14,Denver,North,Furniture,276.99,,S009,2024-04-29 08:48:00
+453,user453@example.com,user_453,22,Standard,2024-05-14,New York,North,Sports,1286.93,inactive,S015,2024-01-11 16:54:00
+640,user640@example.com,user_640,58,Basic,2024-06-02,Miami,North,Electronics,969.36,inactive,S018,2023-01-09 04:54:00
+108,user108@example.com,user_108,40,Premium,2023-08-17,Seattle,South,Clothing,708.05,,S004,2023-03-29 05:46:00
+111,user111@example.com,user_111,64,Basic,2023-07-24,Seattle,North,Clothing,1494.69,,S007,2024-12-20 23:30:00
+118,user118@example.com,,24,Basic,2023-05-30,Phoenix,North,Electronics,1163.57,active,S012,2024-03-16 15:13:00
+56,user56@example.com,,63,Standard,2024-03-09,Los Angeles,North,Food,113.2,,S003,2023-11-02 22:28:00
+430,user430@example.com,user_430,31,Premium,2023-02-25,Chicago,South,Furniture,452.39,inactive,S012,2024-03-05 15:30:00
+549,user549@example.com,user_549,59,Basic,2023-12-30,Denver,South,Electronics,1341.73,inactive,S003,2024-11-14 18:39:00
+149,user149@example.com,user_149,61,Standard,2023-11-21,New York,East,Beauty,754.17,pending,S004,2024-11-21 13:16:00
+534,user534@example.com,user_534,23,Standard,2024-04-05,Denver,West,Electronics,1468.76,,S018,2023-06-20 19:24:00
+222,user222@example.com,user_222,58,Standard,2023-01-15,Dallas,North,Electronics,467.38,active,S016,2024-10-26 14:26:00
+421,user421@example.com,user_421,42,Standard,2023-12-10,Chicago,East,Beauty,273.57,inactive,S018,2024-03-22 12:18:00
+676,user676@example.com,user_676,33,Standard,2024-09-27,Chicago,West,Clothing,34.48,,S004,2024-05-23 23:48:00
+639,user639@example.com,user_639,43,Standard,2024-08-18,New York,North,Toys,1167.55,,S004,2023-07-20 15:07:00
+360,user360@example.com,user_360,41,Standard,2024-12-21,Seattle,West,Furniture,766.27,pending,S009,2023-11-11 13:43:00
+248,,user_248,17,Premium,2023-01-27,Houston,North,Furniture,1439.15,,S008,2024-07-23 12:12:00
+632,user632@example.com,user_632,51,Basic,2023-05-12,Seattle,East,Toys,780.74,,S008,2023-04-12 22:51:00
+130,user130@example.com,user_130,65,Basic,2024-10-04,Los Angeles,East,Furniture,148.97,,S001,2024-10-05 18:09:00
+29,user29@example.com,user_29,20,Standard,2024-01-27,New York,East,Beauty,1168.61,inactive,S008,2024-10-30 07:19:00
+199,user199@example.com,user_199,64,Basic,2023-09-24,New York,North,Clothing,944.88,active,S004,2024-04-15 19:07:00
+110,user110@example.com,user_110,26,Premium,2023-03-21,Miami,North,Books,741.65,active,S014,2023-03-17 15:40:00
+79,user79@example.com,user_79,35,Standard,2024-04-06,Houston,East,Sports,,inactive,S019,2024-10-08 19:54:00
+33,user33@example.com,user_33,37,Basic,2024-09-20,Denver,West,Food,389.21,active,S007,2024-09-12 00:34:00
+24,user24@example.com,user_24,28,Basic,2023-04-28,Phoenix,West,Furniture,134.33,inactive,S009,2023-10-08 15:12:00
+95,user95@example.com,user_95,33,Basic,2024-05-22,Seattle,South,Books,304.84,pending,S013,2023-04-16 18:50:00
+785,user785@example.com,user_785,28,Standard,2024-05-14,Seattle,South,Toys,414.79,pending,S020,2023-04-21 19:24:00
+440,user440@example.com,user_440,55,Premium,2024-04-05,Houston,West,Sports,447.28,pending,S013,2023-01-31 03:11:00
+829,user829@example.com,user_829,37,Premium,2023-03-16,Phoenix,North,Furniture,478.53,active,S011,2024-12-05 00:45:00
+337,user337@example.com,user_337,35,Premium,2024-07-29,Chicago,South,Sports,795.62,active,S018,2023-10-12 22:38:00
+827,user827@example.com,user_827,56,Basic,2024-11-29,Seattle,North,Furniture,83.99,,S016,2023-02-17 08:26:00
+123,user123@example.com,user_123,35,Standard,2024-01-28,Phoenix,West,Sports,,active,S015,2023-10-19 04:53:00
+413,,user_413,48,Premium,2023-12-12,New York,West,Beauty,1205.74,pending,S009,2023-11-21 11:25:00
+82,user82@example.com,user_82,54,Premium,2024-02-07,Los Angeles,South,Beauty,1451.06,active,S012,2024-09-24 03:01:00
+230,,,21,Basic,2024-12-05,Seattle,East,Food,1088.92,pending,S018,2023-01-06 22:55:00
+54,user54@example.com,user_54,22,Premium,2023-11-08,Chicago,North,Furniture,1189.53,,S009,2024-12-16 05:59:00
+142,user142@example.com,user_142,35,Premium,2024-08-21,Seattle,South,Clothing,368.38,,S016,2023-10-15 10:49:00
+749,user749@example.com,user_749,64,Basic,2024-12-29,Chicago,North,Books,1105.55,inactive,S003,2023-03-18 15:03:00
+218,,user_218,39,Premium,2024-05-14,Chicago,North,Books,1144.79,pending,S010,2024-12-26 14:41:00
+158,user158@example.com,user_158,23,Premium,2024-01-08,Seattle,South,Books,290.05,pending,S014,2023-06-18 21:19:00
+592,user592@example.com,user_592,21,Standard,2023-04-23,Phoenix,West,Beauty,52.59,,S012,2023-09-29 03:59:00
+564,user564@example.com,user_564,24,Basic,2024-05-29,Seattle,North,Electronics,560.97,active,S013,2024-03-08 06:18:00
+194,user194@example.com,user_194,48,Standard,2024-05-20,Boston,South,Clothing,973.05,active,S008,2023-04-28 01:57:00
+37,user37@example.com,user_37,49,Premium,2023-10-10,Phoenix,South,Toys,337.63,pending,S016,2023-07-30 05:50:00
+209,user209@example.com,user_209,53,Basic,2023-01-04,Chicago,East,Beauty,1280.32,inactive,S006,2023-11-19 21:04:00
+171,user171@example.com,user_171,24,Premium,2024-11-13,Miami,South,Furniture,,pending,S003,2023-06-24 21:48:00
+10,user10@example.com,user_10,52,Premium,2024-05-15,Phoenix,South,Clothing,,active,S019,2024-11-27 09:53:00
+234,user234@example.com,user_234,24,Premium,2023-04-13,Los Angeles,North,Beauty,532.66,pending,S016,2023-09-17 11:29:00
+14,user14@example.com,user_14,36,Standard,2024-11-10,Denver,South,Clothing,783.77,active,S005,2024-02-25 07:42:00
+146,user146@example.com,,51,Standard,2024-12-13,Seattle,North,Books,298.82,,S004,2023-10-08 20:43:00
+558,user558@example.com,user_558,48,Premium,2023-09-29,Dallas,North,Toys,1418.45,pending,S010,2023-07-15 01:37:00
+533,user533@example.com,user_533,22,Basic,2024-04-10,Denver,North,Sports,22.42,inactive,S015,2024-11-28 04:33:00
+297,user297@example.com,user_297,34,Basic,2023-10-23,Chicago,North,Electronics,333.81,active,S002,2024-05-15 09:00:00
+441,user441@example.com,user_441,18,Basic,2023-05-22,Dallas,North,Food,1072.66,inactive,S007,2024-03-18 18:58:00
+83,user83@example.com,,37,Premium,2024-11-25,Seattle,South,Toys,156.23,pending,S010,2024-09-03 09:11:00
+578,user578@example.com,user_578,52,Premium,2024-11-30,Phoenix,North,Food,307.29,pending,S003,2023-11-01 18:59:00
+644,user644@example.com,user_644,65,Basic,2023-04-09,Houston,South,Furniture,1030.89,pending,S015,2023-12-29 13:29:00
+431,user431@example.com,user_431,50,Premium,2024-03-07,Chicago,East,Sports,874.68,pending,S005,2024-09-27 17:57:00
+580,user580@example.com,user_580,40,Premium,2024-02-17,New York,South,Beauty,136.14,pending,S004,2023-12-08 19:06:00
+842,user842@example.com,user_842,36,Premium,2023-05-05,Denver,West,Books,847.45,,S005,2023-08-17 21:40:00
+159,user159@example.com,user_159,15,Basic,2024-09-30,Phoenix,West,Clothing,,active,S017,2023-04-10 07:13:00
+107,user107@example.com,user_107,43,Basic,2023-02-26,Chicago,North,Toys,284.23,inactive,S018,2023-09-24 19:43:00
+450,user450@example.com,user_450,42,Premium,2024-10-13,New York,East,Food,989.62,inactive,S017,2024-12-17 17:12:00
+488,user488@example.com,user_488,21,Standard,2024-05-19,Dallas,North,Toys,1201.78,,S014,2024-03-11 04:01:00
+291,user291@example.com,user_291,15,Standard,2023-11-07,New York,South,Electronics,538.54,inactive,S015,2024-04-14 08:00:00
+163,user163@example.com,user_163,47,Premium,2023-12-24,Boston,South,Clothing,235.59,pending,S015,2023-05-24 08:50:00
+781,user781@example.com,user_781,19,Standard,2024-05-10,Seattle,South,Food,1391.84,pending,S005,2024-12-15 10:37:00
+595,user595@example.com,user_595,40,Premium,2023-02-16,New York,East,Books,168.27,,S011,2023-08-26 23:50:00
+243,user243@example.com,user_243,61,Basic,2024-03-06,Chicago,West,Sports,1271.73,active,S015,2024-01-19 19:40:00
+31,user31@example.com,user_31,59,Basic,2024-01-22,Houston,East,Books,661.9,pending,S008,2023-07-26 23:10:00
+445,user445@example.com,user_445,27,Premium,2024-08-19,New York,West,Books,,inactive,S001,2024-01-04 13:36:00
+560,user560@example.com,user_560,58,Standard,2024-10-19,Boston,South,Books,859.85,,S017,2023-12-27 11:39:00
+573,user573@example.com,user_573,43,Basic,2024-10-02,Seattle,West,Clothing,780.7,active,S004,2024-05-25 07:03:00
+616,user616@example.com,,33,Basic,2024-02-04,Dallas,West,Food,121.42,inactive,S017,2024-09-17 16:19:00
+409,user409@example.com,user_409,22,Standard,2024-04-27,Los Angeles,West,Electronics,398.71,pending,S002,2023-05-23 06:35:00
+837,user837@example.com,user_837,57,Premium,2023-08-30,Miami,West,Electronics,115.44,,S020,2024-09-19 02:56:00
+565,user565@example.com,user_565,61,Premium,2023-04-17,New York,South,Books,652.96,pending,S008,2023-01-22 01:01:00
+793,user793@example.com,user_793,53,Basic,2024-11-29,New York,South,Electronics,572.07,inactive,S014,2024-12-19 13:35:00
+142,user142@example.com,user_142,54,Basic,2023-12-27,Phoenix,North,Toys,364.87,active,S019,2023-01-11 07:26:00
+766,user766@example.com,user_766,49,Standard,2023-02-16,New York,East,Electronics,198.81,inactive,S010,2023-02-14 10:22:00
+617,user617@example.com,user_617,33,Premium,2024-09-12,Seattle,South,Clothing,123.8,inactive,S016,2024-12-23 23:52:00
+366,user366@example.com,user_366,43,Standard,2023-11-06,Dallas,North,Books,408.63,active,S002,2023-12-21 13:45:00
+637,user637@example.com,user_637,23,Standard,2023-08-25,Los Angeles,East,Clothing,1226.41,inactive,S002,2023-08-29 22:28:00
+666,user666@example.com,user_666,16,Basic,2023-02-04,Los Angeles,North,Toys,1447.99,active,S009,2024-09-16 12:31:00
+20,user20@example.com,user_20,17,Premium,2023-07-30,Seattle,East,Toys,994.0,active,S018,2023-12-23 00:58:00
+624,user624@example.com,user_624,31,Standard,2023-08-10,New York,North,Toys,1176.09,active,S004,2024-07-20 12:46:00
+695,user695@example.com,user_695,49,Basic,2024-03-10,Denver,North,Food,706.33,inactive,S005,2023-01-16 08:51:00
+699,user699@example.com,user_699,30,Standard,2023-10-30,Dallas,South,Electronics,548.93,pending,S020,2023-01-13 03:19:00
+583,user583@example.com,user_583,26,Basic,2024-04-18,New York,South,Electronics,1449.17,,S018,2023-08-12 13:03:00
+594,user594@example.com,user_594,54,Standard,2023-11-18,Chicago,South,Food,1182.24,pending,S016,2023-05-11 07:40:00
+179,user179@example.com,user_179,18,Premium,2023-04-28,New York,East,Beauty,72.51,inactive,S002,2023-09-23 08:01:00
+695,user695@example.com,user_695,49,Standard,2023-02-15,Denver,East,Furniture,765.34,active,S017,2023-03-21 07:13:00
+334,user334@example.com,user_334,58,Basic,2023-03-15,Seattle,North,Food,,pending,S011,2024-02-22 20:23:00
+482,user482@example.com,user_482,16,Premium,2024-01-13,New York,North,Food,48.05,inactive,S011,2024-06-07 22:49:00
+760,user760@example.com,user_760,37,Premium,2024-01-23,Denver,West,Food,1496.75,active,S003,2023-08-18 18:32:00
+589,user589@example.com,user_589,49,Standard,2023-05-05,Boston,West,Beauty,785.3,pending,S009,2023-07-19 18:18:00
+250,user250@example.com,user_250,38,Premium,2024-04-11,Dallas,West,Books,1436.84,,S012,2023-03-23 11:35:00
+518,user518@example.com,user_518,45,Standard,2023-08-24,Miami,South,Books,1241.91,inactive,S018,2023-09-08 13:43:00
+599,user599@example.com,user_599,65,Basic,2023-12-16,Dallas,West,Clothing,762.49,inactive,S019,2024-05-21 20:56:00
+792,user792@example.com,user_792,44,Premium,2023-06-20,Chicago,South,Sports,1069.96,,S004,2023-05-10 01:53:00
+442,,user_442,19,Premium,2024-06-11,Boston,South,Toys,609.45,inactive,S010,2023-05-02 10:57:00
+845,user845@example.com,user_845,54,Premium,2023-02-16,Chicago,North,Beauty,949.94,,S010,2024-05-03 22:08:00
+752,user752@example.com,user_752,47,Premium,2023-06-05,New York,North,Beauty,663.49,pending,S004,2023-08-26 09:31:00
+350,,user_350,48,Standard,2024-06-04,Seattle,North,Furniture,1138.38,inactive,S002,2023-08-04 13:33:00
+285,user285@example.com,user_285,21,Basic,2023-10-19,Houston,West,Sports,663.99,inactive,S010,2023-09-23 19:48:00
+109,user109@example.com,user_109,24,Premium,2023-07-31,Boston,East,Electronics,69.22,inactive,S001,2024-05-15 00:23:00
+209,user209@example.com,user_209,42,Standard,2024-03-31,Boston,East,Beauty,173.33,active,S015,2024-03-18 15:16:00
+89,user89@example.com,user_89,61,Standard,2023-04-30,Dallas,West,Books,497.4,pending,S009,2024-04-09 20:47:00
+526,user526@example.com,user_526,59,Basic,2023-02-09,Seattle,West,Furniture,841.67,active,S001,2023-09-09 04:37:00
+386,user386@example.com,user_386,27,Basic,2024-04-26,Houston,South,Food,431.07,inactive,S003,2024-06-12 23:47:00
+220,,user_220,50,Standard,2023-08-02,Houston,West,Toys,923.93,inactive,S012,2024-05-10 16:42:00
+185,user185@example.com,user_185,33,Standard,2024-05-11,Miami,South,Furniture,450.17,inactive,S004,2023-10-22 13:28:00
+334,user334@example.com,user_334,26,Basic,2023-11-23,Chicago,North,Toys,1162.79,,S016,2024-09-07 13:43:00
+241,,user_241,28,Basic,2023-03-04,Boston,North,Sports,622.73,,S014,2024-02-13 08:58:00
+56,user56@example.com,user_56,36,Standard,2023-02-16,Los Angeles,South,Toys,1314.68,inactive,S004,2024-09-20 19:21:00
+133,user133@example.com,,61,Premium,2024-01-24,Chicago,North,Furniture,833.81,active,S017,2023-08-04 11:34:00
+204,user204@example.com,user_204,40,Standard,2023-08-23,Los Angeles,East,Furniture,331.27,inactive,S001,2023-02-06 00:48:00
+540,user540@example.com,user_540,46,Premium,2023-06-10,Los Angeles,North,Electronics,1160.89,inactive,S002,2023-10-06 23:07:00
+833,user833@example.com,user_833,23,Standard,2023-10-04,Chicago,West,Clothing,1058.2,,S001,2023-01-16 23:53:00
+555,user555@example.com,user_555,62,Standard,2024-02-05,Phoenix,North,Furniture,1117.79,pending,S009,2024-04-14 06:06:00
+271,user271@example.com,user_271,39,Basic,2024-03-15,Chicago,East,Toys,730.19,inactive,S013,2023-01-18 15:46:00
+404,user404@example.com,user_404,60,Premium,2024-04-08,Phoenix,West,Toys,676.16,,S019,2023-04-22 20:19:00
+341,user341@example.com,user_341,20,Premium,2024-07-28,Houston,East,Beauty,134.99,,S020,2024-04-29 16:46:00
+581,user581@example.com,user_581,46,Basic,2024-02-26,Los Angeles,North,Food,,,S001,2023-10-02 22:13:00
+774,user774@example.com,user_774,46,Basic,2024-10-29,Phoenix,North,Beauty,776.5,active,S004,2024-03-11 22:04:00
+385,user385@example.com,,48,Standard,2023-05-05,Houston,East,Beauty,179.36,,S016,2023-06-24 20:51:00
+538,user538@example.com,user_538,50,Basic,2024-02-13,New York,North,Clothing,448.39,pending,S017,2023-11-27 19:56:00
+381,user381@example.com,user_381,33,Standard,2024-12-02,Phoenix,North,Sports,323.82,pending,S005,2023-06-18 16:45:00
+850,user850@example.com,user_850,26,Premium,2024-04-26,Chicago,West,Sports,306.91,active,S018,2024-04-14 10:06:00
+63,user63@example.com,user_63,19,Basic,2024-10-13,Boston,East,Furniture,1392.54,pending,S010,2024-03-12 18:46:00
+314,user314@example.com,user_314,31,Standard,2024-07-08,Phoenix,West,Food,332.5,inactive,S009,2024-07-31 03:08:00
+817,user817@example.com,user_817,39,Basic,2024-08-12,Denver,North,Beauty,13.98,inactive,S007,2023-04-04 19:09:00
+147,user147@example.com,user_147,35,Premium,2023-02-23,Houston,South,Toys,497.36,active,S008,2024-07-27 12:24:00
+793,user793@example.com,user_793,34,Standard,2023-11-21,Boston,West,Books,1418.78,pending,S005,2024-03-23 17:28:00
+502,user502@example.com,user_502,22,Standard,2024-03-21,Dallas,East,Electronics,1284.5,pending,S014,2023-08-07 19:35:00
+196,user196@example.com,user_196,62,Premium,2023-07-20,Miami,North,Books,,pending,S011,2023-04-07 11:58:00
+260,user260@example.com,,32,Premium,2024-10-24,Los Angeles,South,Toys,,pending,S009,2024-10-02 01:36:00
+844,,user_844,45,Standard,2024-10-09,Miami,South,Food,1313.66,active,S002,2024-01-14 00:39:00
+731,user731@example.com,user_731,23,Premium,2024-03-05,Chicago,West,Beauty,102.86,active,S018,2023-10-12 06:41:00
+629,user629@example.com,user_629,58,Basic,2024-12-27,Houston,North,Electronics,610.73,active,S003,2023-07-17 16:09:00
+747,user747@example.com,user_747,17,Basic,2024-09-15,Phoenix,South,Food,1264.76,active,S010,2023-10-08 17:22:00
+121,user121@example.com,user_121,59,Premium,2024-08-02,Miami,West,Clothing,281.93,active,S006,2023-11-22 18:40:00
+21,user21@example.com,user_21,28,Standard,2024-01-19,Miami,West,Books,1024.53,inactive,S005,2023-11-14 01:24:00
+723,user723@example.com,user_723,51,Basic,2024-02-28,Phoenix,East,Sports,273.9,pending,S009,2024-12-15 14:16:00
+95,user95@example.com,user_95,37,Standard,2024-06-19,Miami,East,Electronics,881.98,inactive,S018,2024-08-05 06:44:00
+445,user445@example.com,user_445,65,Basic,2023-08-01,Dallas,North,Clothing,323.98,inactive,S015,2023-09-25 01:59:00
+119,user119@example.com,user_119,45,Premium,2024-04-23,Denver,North,Furniture,990.87,active,S011,2024-12-19 03:40:00
+368,user368@example.com,,41,Basic,2023-12-09,Dallas,West,Food,466.35,,S018,2023-07-10 00:28:00
+829,user829@example.com,user_829,59,Basic,2024-02-13,Miami,East,Sports,905.4,,S013,2023-11-04 01:59:00
+240,user240@example.com,user_240,47,Premium,2024-03-07,Seattle,North,Toys,254.4,inactive,S010,2024-09-03 22:33:00
+204,user204@example.com,user_204,23,Premium,2024-11-10,Dallas,West,Clothing,1151.08,pending,S015,2024-02-10 05:29:00
+1,user1@example.com,user_1,26,Basic,2023-11-11,Chicago,East,Books,660.46,inactive,S005,2024-12-02 17:54:00
+795,user795@example.com,user_795,37,Premium,2024-04-27,Boston,South,Books,1005.97,,S008,2023-04-09 12:08:00
+326,user326@example.com,user_326,64,Basic,2023-10-17,Seattle,South,Clothing,1008.12,active,S008,2024-09-15 05:49:00
+241,user241@example.com,user_241,15,Standard,2024-09-05,Seattle,West,Books,290.08,inactive,S010,2024-03-21 02:21:00
+394,user394@example.com,user_394,33,Basic,2024-02-01,Miami,West,Sports,638.39,inactive,S013,2024-11-29 16:53:00
+109,user109@example.com,user_109,58,Standard,2023-04-14,Seattle,West,Food,866.28,,S015,2023-01-12 15:41:00
+687,user687@example.com,user_687,34,Basic,2023-09-22,Chicago,South,Furniture,1070.91,pending,S004,2023-07-03 13:34:00
+778,user778@example.com,user_778,24,Premium,2023-12-12,Denver,North,Books,925.63,,S014,2023-02-19 14:18:00
+41,user41@example.com,user_41,38,Premium,2024-09-05,Dallas,North,Toys,451.26,active,S018,2023-10-01 05:18:00
+366,user366@example.com,user_366,34,Standard,2023-02-06,Denver,West,Furniture,801.59,,S008,2023-06-29 02:34:00
+97,user97@example.com,user_97,46,Basic,2023-10-09,Dallas,South,Books,1356.33,,S002,2023-03-20 10:23:00
+40,user40@example.com,user_40,55,Premium,2024-01-27,Boston,West,Furniture,1126.41,,S013,2023-01-23 05:47:00
+264,user264@example.com,user_264,20,Basic,2023-04-30,Phoenix,North,Sports,813.34,inactive,S002,2024-01-19 18:30:00
+221,user221@example.com,user_221,62,Standard,2023-07-10,Los Angeles,West,Toys,1020.53,pending,S001,2024-02-21 06:01:00
+801,user801@example.com,user_801,32,Basic,2024-09-05,Dallas,West,Books,1066.42,inactive,S003,2024-09-18 09:46:00
+730,user730@example.com,user_730,41,Standard,2024-09-01,Dallas,South,Beauty,28.73,pending,S011,2023-12-21 14:09:00
+474,user474@example.com,user_474,49,Standard,2023-06-24,Seattle,North,Toys,,active,S016,2024-07-28 11:05:00
+213,user213@example.com,user_213,34,Basic,2023-11-19,Miami,South,Electronics,881.56,pending,S019,2024-03-17 13:48:00
+24,user24@example.com,user_24,62,Basic,2023-08-29,Seattle,East,Toys,1276.01,active,S013,2023-08-12 06:07:00
+585,user585@example.com,user_585,64,Standard,2024-02-15,Boston,South,Furniture,633.09,pending,S011,2024-01-07 20:06:00
+681,user681@example.com,user_681,63,Standard,2023-11-22,Boston,South,Books,747.3,,S010,2024-04-05 05:59:00
+182,user182@example.com,,36,Basic,2024-11-02,Houston,West,Toys,632.97,,S014,2023-07-13 20:01:00
+634,user634@example.com,user_634,47,Premium,2024-09-05,Denver,South,Electronics,382.41,,S003,2024-01-15 00:47:00
+616,user616@example.com,user_616,50,Standard,2023-07-17,Houston,South,Furniture,366.58,,S007,2023-11-27 04:18:00
+67,user67@example.com,user_67,44,Basic,2023-09-08,Denver,South,Books,1459.48,active,S020,2023-12-06 05:15:00
+474,user474@example.com,user_474,62,Premium,2024-11-29,Seattle,South,Toys,631.46,pending,S018,2023-05-04 22:49:00
+622,user622@example.com,user_622,16,Basic,2024-05-07,New York,North,Toys,1090.47,active,S012,2024-02-14 22:59:00
+524,user524@example.com,user_524,65,Premium,2023-04-17,Houston,North,Clothing,556.03,pending,S005,2023-09-06 15:13:00
+271,user271@example.com,user_271,19,Basic,2024-12-27,Miami,East,Sports,1036.9,pending,S015,2024-12-17 08:36:00
+282,user282@example.com,user_282,24,Standard,2023-10-23,New York,East,Furniture,1073.57,pending,S006,2024-08-04 20:19:00
+487,user487@example.com,user_487,24,Standard,2024-12-12,Houston,East,Sports,393.39,inactive,S001,2023-08-05 18:19:00
+152,user152@example.com,user_152,61,Standard,2024-06-13,Seattle,South,Food,969.34,pending,S017,2024-01-19 12:55:00
+497,user497@example.com,user_497,45,Premium,2024-05-10,Seattle,West,Clothing,470.87,inactive,S005,2023-10-12 19:49:00
+747,user747@example.com,user_747,37,Basic,2024-04-15,Denver,West,Books,551.7,active,S013,2024-10-03 03:21:00
+520,user520@example.com,user_520,49,Standard,2024-07-04,Chicago,West,Beauty,379.48,pending,S006,2024-12-07 20:54:00
+251,user251@example.com,user_251,26,Premium,2024-09-15,Los Angeles,North,Clothing,1102.67,active,S005,2024-06-19 09:03:00
+213,user213@example.com,user_213,52,Basic,2024-04-20,Chicago,West,Furniture,118.85,,S004,2024-03-28 02:30:00
+203,user203@example.com,user_203,53,Basic,2023-11-04,Denver,West,Toys,176.17,,S007,2024-08-26 20:39:00
+774,user774@example.com,,63,Basic,2024-09-07,Los Angeles,South,Food,730.09,pending,S010,2023-09-28 17:15:00
+350,user350@example.com,user_350,34,Standard,2024-03-26,Chicago,East,Beauty,,,S016,2023-06-17 05:04:00
+779,user779@example.com,user_779,43,Basic,2024-10-15,Boston,East,Books,1146.65,inactive,S010,2024-05-28 09:20:00
+785,user785@example.com,user_785,34,Standard,2023-08-04,Denver,East,Furniture,1151.93,inactive,S006,2024-09-16 21:10:00
+334,user334@example.com,user_334,56,Standard,2024-03-02,Los Angeles,East,Sports,1285.79,pending,S012,2023-05-29 09:21:00
+745,user745@example.com,user_745,43,Basic,2024-03-11,Denver,South,Toys,,,S002,2024-02-23 11:41:00
+825,user825@example.com,user_825,32,Premium,2024-12-22,Phoenix,East,Sports,566.48,pending,S014,2024-01-27 10:35:00
+574,user574@example.com,user_574,54,Standard,2024-03-26,Los Angeles,West,Clothing,494.97,,S019,2024-04-26 01:49:00
+676,user676@example.com,user_676,60,Basic,2023-09-13,Los Angeles,South,Electronics,963.05,pending,S018,2024-01-14 14:59:00
+292,user292@example.com,user_292,62,Premium,2023-11-29,Seattle,East,Food,865.39,active,S015,2023-09-09 10:36:00
+560,user560@example.com,user_560,48,Basic,2024-12-07,New York,East,Clothing,1051.88,pending,S012,2024-04-01 23:56:00
+220,user220@example.com,user_220,44,Basic,2023-12-08,Phoenix,North,Sports,1399.7,inactive,S004,2024-10-19 13:27:00
+406,user406@example.com,user_406,48,Premium,2024-06-08,Dallas,West,Toys,1440.08,pending,S018,2024-05-18 09:36:00
+342,user342@example.com,user_342,51,Premium,2024-07-25,Chicago,East,Clothing,707.99,inactive,S003,2024-12-01 13:52:00
+284,user284@example.com,user_284,62,Premium,2024-10-28,Dallas,West,Food,516.32,,S001,2024-02-16 18:18:00
+7,user7@example.com,user_7,15,Premium,2023-11-27,Seattle,East,Sports,880.72,pending,S018,2024-04-13 20:42:00
+206,user206@example.com,user_206,37,Standard,2024-08-13,Houston,East,Food,280.56,active,S018,2024-09-08 01:49:00
+131,user131@example.com,user_131,35,Basic,2023-08-24,Phoenix,East,Sports,1486.6,inactive,S007,2023-12-30 00:08:00
+451,user451@example.com,user_451,16,Basic,2023-08-02,Seattle,West,Beauty,305.97,,S019,2023-05-08 02:11:00
+519,user519@example.com,user_519,22,Premium,2023-08-03,Chicago,South,Furniture,482.15,inactive,S007,2023-04-03 16:23:00
+490,user490@example.com,user_490,44,Premium,2023-01-08,Seattle,South,Toys,159.1,pending,S010,2023-03-08 13:54:00
+668,user668@example.com,user_668,20,Standard,2024-10-21,Seattle,South,Electronics,419.33,pending,S002,2023-05-25 07:11:00
+579,,user_579,23,Standard,2024-04-26,New York,West,Books,994.82,pending,S020,2024-02-29 05:26:00
+177,user177@example.com,user_177,24,Standard,2024-11-15,Houston,North,Clothing,54.67,inactive,S010,2024-02-18 20:23:00
+272,user272@example.com,,16,Basic,2023-01-30,Miami,West,Food,79.28,,S020,2024-06-21 05:10:00
+103,,user_103,20,Basic,2023-03-09,Chicago,South,Beauty,1285.65,,S005,2024-09-09 20:00:00
+319,user319@example.com,user_319,31,Premium,2023-11-27,Boston,North,Clothing,1125.59,inactive,S005,2023-08-13 16:08:00
+825,user825@example.com,user_825,20,Standard,2023-04-08,Seattle,North,Clothing,383.5,pending,S011,2024-12-28 14:42:00
+605,user605@example.com,user_605,32,Premium,2023-12-02,Seattle,North,Food,1402.59,active,S013,2024-10-09 01:50:00
+203,user203@example.com,,55,Premium,2023-09-01,Houston,South,Furniture,,,S016,2023-12-19 06:40:00
+837,user837@example.com,user_837,28,Basic,2024-09-28,Los Angeles,South,Clothing,986.64,pending,S011,2023-07-10 08:21:00
+827,user827@example.com,user_827,44,Standard,2023-04-09,Dallas,North,Clothing,645.51,active,S018,2023-05-10 03:14:00
+469,user469@example.com,user_469,60,Basic,2023-05-10,Dallas,North,Beauty,1476.62,active,S017,2023-07-06 12:52:00
+524,user524@example.com,user_524,29,Premium,2023-07-23,Dallas,East,Electronics,550.36,inactive,S017,2023-06-20 11:10:00
+103,user103@example.com,user_103,54,Premium,2023-06-05,Boston,South,Books,1438.99,,S010,2024-02-04 16:26:00
+488,user488@example.com,user_488,34,Premium,2023-03-18,Los Angeles,North,Books,923.54,active,S002,2024-02-25 04:09:00
+493,user493@example.com,user_493,30,Basic,2023-06-13,Seattle,South,Books,532.11,inactive,S009,2023-05-24 12:07:00
+744,user744@example.com,user_744,24,Premium,2024-03-30,Houston,North,Furniture,,active,S017,2023-11-15 16:06:00
+791,user791@example.com,user_791,57,Basic,2023-11-02,Chicago,South,Food,1468.7,pending,S009,2023-02-11 12:53:00
+262,user262@example.com,user_262,52,Premium,2024-12-27,Miami,North,Books,141.97,pending,S008,2024-11-11 15:53:00
+719,user719@example.com,user_719,55,Premium,2023-10-14,Los Angeles,North,Furniture,1256.08,pending,S003,2023-01-14 03:45:00
+826,user826@example.com,user_826,29,Standard,2024-03-20,Los Angeles,West,Beauty,1257.74,,S020,2024-06-15 21:24:00
+44,user44@example.com,user_44,65,Standard,2023-04-11,Denver,West,Clothing,365.54,,S013,2023-02-10 11:41:00
+808,user808@example.com,user_808,48,Premium,2024-02-13,Seattle,West,Books,45.98,pending,S004,2023-10-27 13:51:00
+30,user30@example.com,user_30,31,Basic,2024-11-30,Dallas,North,Books,1177.73,pending,S015,2024-12-16 20:16:00
+788,user788@example.com,user_788,64,Standard,2024-10-25,Dallas,South,Furniture,266.37,,S003,2023-12-08 11:39:00
+552,user552@example.com,user_552,29,Basic,2023-11-10,Chicago,West,Toys,750.82,inactive,S013,2023-07-27 08:54:00
+725,user725@example.com,user_725,43,Basic,2023-06-13,Houston,North,Electronics,876.95,pending,S018,2024-07-05 05:25:00
+634,user634@example.com,user_634,20,Standard,2024-09-04,Seattle,North,Food,803.91,,S005,2024-01-30 03:54:00
+754,user754@example.com,user_754,33,Standard,2024-08-06,Chicago,North,Books,70.75,inactive,S009,2023-01-27 15:14:00
+712,user712@example.com,user_712,29,Basic,2024-10-25,Phoenix,East,Electronics,1447.24,,S015,2024-02-29 17:35:00
+582,user582@example.com,user_582,48,Standard,2024-02-14,Denver,South,Sports,1473.06,pending,S014,2024-01-15 11:57:00
+241,user241@example.com,user_241,59,Premium,2023-11-26,Phoenix,East,Clothing,1178.49,,S018,2023-11-18 03:51:00
+847,user847@example.com,user_847,60,Standard,2024-10-22,Boston,East,Beauty,1256.55,,S020,2024-03-24 15:37:00
+447,user447@example.com,user_447,16,Standard,2024-04-04,Boston,West,Furniture,1062.4,active,S012,2023-03-08 23:17:00
+584,user584@example.com,user_584,16,Standard,2024-09-04,Miami,South,Food,330.65,,S010,2024-07-05 22:43:00
+312,user312@example.com,user_312,47,Basic,2023-05-28,Boston,North,Electronics,88.93,pending,S019,2023-05-03 02:39:00
+66,user66@example.com,user_66,61,Premium,2023-09-12,Denver,East,Food,,,S004,2023-12-06 02:06:00
+414,user414@example.com,user_414,39,Basic,2024-01-26,Miami,East,Furniture,473.68,inactive,S014,2023-09-16 15:05:00
+189,user189@example.com,user_189,37,Standard,2024-10-10,Chicago,North,Beauty,790.56,active,S020,2023-03-04 17:03:00
+700,user700@example.com,user_700,48,Premium,2023-01-05,Dallas,South,Sports,,pending,S003,2023-06-26 06:40:00
+636,user636@example.com,user_636,37,Premium,2024-11-30,Houston,North,Food,1062.49,inactive,S017,2023-06-02 14:01:00
+638,,user_638,65,Premium,2023-11-16,Los Angeles,West,Furniture,889.26,inactive,S004,2024-05-24 06:38:00
+159,user159@example.com,user_159,44,Standard,2024-07-15,Seattle,South,Clothing,107.54,inactive,S012,2023-05-25 07:52:00
+503,user503@example.com,user_503,37,Premium,2024-05-06,Denver,West,Clothing,487.62,,S018,2024-10-20 06:18:00
+329,user329@example.com,user_329,33,Standard,2024-03-12,Seattle,South,Toys,45.51,active,S011,2024-07-28 15:39:00
+399,user399@example.com,user_399,64,Basic,2024-12-01,New York,West,Books,467.61,inactive,S011,2023-02-19 17:01:00
+49,user49@example.com,user_49,37,Standard,2023-02-23,Seattle,East,Furniture,76.63,inactive,S004,2024-04-13 05:57:00
+227,user227@example.com,user_227,28,Basic,2023-07-31,Denver,West,Electronics,316.98,active,S010,2023-01-05 07:42:00
+834,user834@example.com,user_834,26,Basic,2023-08-22,Dallas,South,Electronics,902.14,pending,S014,2024-11-27 18:45:00
+642,user642@example.com,user_642,56,Standard,2023-10-07,Seattle,West,Toys,571.93,inactive,S016,2023-09-17 19:00:00
+642,user642@example.com,user_642,64,Basic,2023-05-12,Phoenix,West,Clothing,1354.3,,S003,2023-07-07 17:20:00
+172,user172@example.com,user_172,58,Standard,2024-12-12,Seattle,North,Sports,859.46,active,S004,2024-02-09 06:05:00
+569,user569@example.com,user_569,48,Premium,2024-04-25,Miami,West,Clothing,1251.31,inactive,S003,2024-12-11 02:15:00
+447,user447@example.com,user_447,24,Basic,2024-09-03,New York,East,Books,75.2,active,S005,2023-12-16 08:58:00
+180,user180@example.com,user_180,56,Premium,2024-02-05,Seattle,East,Sports,345.6,inactive,S011,2024-11-04 23:28:00
+26,user26@example.com,user_26,30,Standard,2024-06-25,Los Angeles,East,Food,483.15,active,S003,2024-02-24 16:34:00
+18,user18@example.com,user_18,35,Basic,2023-02-09,Houston,West,Books,,active,S019,2023-03-01 12:49:00
+581,user581@example.com,user_581,55,Premium,2024-07-31,Boston,West,Electronics,1367.11,,S010,2024-12-03 19:24:00
+461,user461@example.com,user_461,46,Standard,2023-09-14,Dallas,South,Beauty,238.18,pending,S008,2023-05-28 09:40:00
+749,user749@example.com,user_749,31,Premium,2024-01-12,New York,South,Sports,695.3,inactive,S013,2023-05-09 20:22:00
+214,user214@example.com,user_214,41,Basic,2024-04-08,Miami,South,Beauty,495.76,,S005,2024-06-26 06:15:00
+223,user223@example.com,user_223,61,Standard,2024-09-25,Dallas,South,Toys,467.28,,S005,2024-04-26 03:34:00
+668,user668@example.com,user_668,64,Standard,2024-02-27,New York,East,Books,1335.99,,S017,2024-03-18 05:28:00
+25,user25@example.com,user_25,57,Premium,2023-10-07,Denver,East,Toys,1203.25,inactive,S014,2023-11-21 14:15:00
+757,user757@example.com,user_757,35,Standard,2024-09-19,Boston,West,Clothing,137.77,active,S002,2023-12-06 02:20:00
+366,user366@example.com,user_366,28,Basic,2023-03-09,Dallas,North,Beauty,1058.37,pending,S010,2023-04-14 17:10:00
+156,user156@example.com,user_156,54,Basic,2023-06-12,Boston,South,Sports,1356.44,active,S005,2024-03-31 03:48:00
+41,user41@example.com,user_41,39,Basic,2023-06-24,New York,North,Beauty,280.93,active,S016,2024-11-18 18:22:00
+348,user348@example.com,user_348,19,Premium,2023-05-19,Denver,North,Toys,175.35,inactive,S011,2023-10-27 22:50:00
+806,user806@example.com,user_806,46,Premium,2024-09-28,Denver,South,Food,386.55,pending,S017,2023-01-25 15:20:00
+171,user171@example.com,user_171,34,Basic,2024-04-04,Seattle,North,Electronics,1492.69,,S003,2023-12-07 17:02:00
+134,user134@example.com,user_134,15,Standard,2024-08-10,New York,North,Toys,710.48,,S002,2024-12-12 21:17:00
+714,user714@example.com,user_714,47,Basic,2024-02-21,Dallas,East,Furniture,833.05,,S010,2023-10-01 02:58:00
+461,user461@example.com,user_461,57,Basic,2024-06-05,Chicago,West,Food,169.5,active,S006,2024-01-18 02:09:00
+586,user586@example.com,user_586,19,Premium,2023-01-14,Dallas,West,Food,1448.81,,S011,2024-11-11 03:39:00
+125,user125@example.com,user_125,62,Premium,2023-07-10,Chicago,West,Electronics,1031.55,inactive,S002,2023-03-23 12:20:00
+641,user641@example.com,user_641,27,Standard,2024-05-22,Denver,East,Beauty,1017.48,active,S015,2023-07-09 16:00:00
+82,user82@example.com,user_82,24,Standard,2024-08-12,Phoenix,West,Clothing,1274.44,inactive,S006,2024-02-09 20:53:00
+607,user607@example.com,user_607,55,Basic,2023-08-12,Seattle,North,Furniture,800.52,pending,S010,2023-06-15 02:03:00
+65,user65@example.com,user_65,18,Standard,2024-03-16,Chicago,South,Electronics,1015.01,pending,S019,2024-01-06 22:43:00
+621,user621@example.com,user_621,31,Standard,2023-11-23,Miami,North,Beauty,457.37,,S011,2024-07-13 23:12:00
+234,user234@example.com,user_234,37,Basic,2024-04-21,Miami,North,Toys,1349.64,,S005,2023-05-26 23:48:00
+395,user395@example.com,,23,Basic,2024-01-26,Houston,South,Furniture,,inactive,S005,2024-08-30 05:13:00
+98,,user_98,32,Basic,2023-07-22,New York,South,Toys,1246.37,pending,S008,2023-07-14 15:38:00
+742,user742@example.com,user_742,25,Basic,2024-11-12,New York,North,Clothing,491.69,,S020,2023-10-24 04:15:00
+532,user532@example.com,user_532,41,Basic,2023-01-14,Los Angeles,East,Furniture,1029.25,,S020,2023-05-05 19:08:00
+543,user543@example.com,user_543,59,Premium,2024-01-14,Denver,South,Clothing,,pending,S014,2023-09-10 06:20:00
+705,user705@example.com,user_705,35,Standard,2024-05-02,Los Angeles,North,Furniture,1353.77,pending,S019,2023-08-23 22:37:00
+625,user625@example.com,user_625,46,Standard,2024-04-26,New York,North,Clothing,231.05,pending,S003,2024-06-25 15:29:00
+618,user618@example.com,user_618,61,Basic,2023-03-10,Miami,South,Books,421.55,inactive,S012,2023-03-02 15:15:00
+229,user229@example.com,user_229,54,Basic,2024-07-29,Houston,North,Furniture,478.11,inactive,S007,2024-09-03 19:07:00
+303,user303@example.com,user_303,27,Standard,2024-05-31,Los Angeles,East,Toys,1229.69,active,S010,2023-09-25 06:09:00
+304,,user_304,63,Basic,2023-03-22,Dallas,South,Food,579.21,inactive,S020,2024-03-30 10:06:00
+281,user281@example.com,user_281,53,Basic,2023-10-19,Houston,East,Furniture,194.63,pending,S018,2024-05-03 11:09:00
+323,user323@example.com,user_323,16,Standard,2024-03-20,Dallas,South,Food,1255.75,active,S010,2023-11-28 18:48:00
+583,,user_583,61,Standard,2023-05-16,Miami,West,Clothing,162.36,inactive,S008,2023-04-05 11:22:00
+347,user347@example.com,user_347,19,Basic,2024-02-15,Boston,West,Toys,600.03,inactive,S018,2023-04-02 06:28:00
+163,user163@example.com,user_163,31,Premium,2023-09-03,New York,West,Electronics,1048.96,,S002,2023-02-13 07:48:00
