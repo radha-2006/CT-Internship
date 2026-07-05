@@ -115,4 +115,17 @@ Summary:
 -> Compared inferSchema=True vs explicit schema, saw silent null risks with mixed dates and cast a string column to TimestampType.
 -> Built a full pipeline removing duplicates, filling null prices with 0 and grouping by store_id, giving a grand total revenue of $709,924.32.
 
+WEEK-6:
+Summary:
+-> Loaded dataset with multiple columns and handled null values
+-> Learned Spark architecture (Driver, Executors, Cluster Manager)
+-> Understood lazy evaluation and Catalyst Optimizer
+-> Performed transformations like select, filter, rename, and casting
+-> Cleaned data by removing nulls and creating new columns
+-> Compared CSV vs Parquet (Parquet is faster and optimized)
+-> Used filtering and aggregation (sum, avg, count)
+-> Wrote data to CSV after filtering
+-> Learned Spark writes multiple output files (part files)
+-> Practiced optimization techniques like column selection and predicate pushdown
+
 
