@@ -1,0 +1,9 @@
+customer_id,first_name,last_name,email,city,phone,updated_at
+1002,Jane,Smith,jane.smith@newmail.com,San Francisco,555-0102,2024-02-10
+1004,Emily,Davis,emily.davis@newmail.com,Houston,555-0119,2024-02-16
+1005,Michael,Wilson,michael.wilson@email.com,Denver,555-0105,2024-02-11
+1009,James,Jackson,james.jackson@email.com,Seattle,555-0109,2024-02-12
+1011,William,Harris,william.harris@email.com,Sacramento,555-0111,2024-02-17
+1016,Karen,Lee,karen.lee@email.com,Boston,555-0116,2024-02-13
+1017,Charles,Perez,charles.perez@email.com,Portland,555-0117,2024-02-14
+1018,Nancy,Roberts,nancy.roberts@email.com,Miami,555-0118,2024-02-15

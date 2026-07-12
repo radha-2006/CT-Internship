@@ -1,0 +1,17 @@
+customer_id,first_name,last_name,email,city,phone,updated_at
+1001,John,Doe,john.doe@email.com,New York,555-0101,2024-01-15
+1002,Jane,Smith,jane.smith@email.com,Los Angeles,555-0102,2024-01-16
+1003,Robert,Brown,,Chicago,555-0103,2024-01-17
+1004,Emily,Davis,emily.davis@email.com,Houston,555-0104,2024-01-18
+1005,Michael,Wilson,michael.wilson@email.com,Phoenix,555-0105,2024-01-19
+1001,John,Doe,john.doe@email.com,New York,555-0101,2024-01-15
+1006,Sarah,Taylor,sarah.taylor@email.com,,555-0106,2024-01-20
+1007,David,Anderson,david.anderson@email.com,Philadelphia,555-0107,2024-01-21
+1008,Laura,Thomas,,San Antonio,555-0108,2024-01-22
+1009,James,Jackson,james.jackson@email.com,San Diego,555-0109,2024-01-23
+1010,Linda,White,linda.white@email.com,Dallas,555-0110,2024-01-24
+1011,William,Harris,william.harris@email.com,San Jose,555-0111,2024-01-25
+1012,Barbara,Martin,barbara.martin@email.com,Austin,555-0112,2024-01-26
+1013,Richard,Thompson,richard.thompson@email.com,Jacksonville,555-0113,2024-01-27
+1014,Susan,Garcia,susan.garcia@email.com,Fort Worth,555-0114,2024-01-28
+1015,Joseph,Martinez,joseph.martinez@email.com,Columbus,555-0115,2024-01-29
