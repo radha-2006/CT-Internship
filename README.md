@@ -128,4 +128,17 @@ Summary:
 -> Learned Spark writes multiple output files (part files)
 -> Practiced optimization techniques like column selection and predicate pushdown
 
+WEEK-7:
+Summary:
+1. Loaded the Superstore dataset into Delta Lake on Databricks.
+2. Cleaned the data (checked/handled nulls and duplicates).
+3. Simulated an incremental batch of updates and new records.
+4. Used `MERGE INTO` to implement SCD Type 1 (overwrite).
+5. Used `MERGE INTO` to implement SCD Type 2 (history tracking).
+6. Validated results with row-count and duplicate checks.
+7. Built a separate Pandas notebook to explore and clean the same dataset.
+8. Created a derived `total_amount` column.
+9. Exported a cleaned CSV file.
+10. Prepared notebooks and outputs for GitHub submission.
+
 
