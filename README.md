@@ -105,27 +105,45 @@ Summary:
 WEEK-5:
 Summary:
 -> Set up PySpark 3.5.1 with Java 11 on Google Colab, created a SparkSession and loaded a 1000-row dataset with 13 columns.
+
 -> Learned how Spark solves MapReduce limitations like disk I/O, no caching and high latency using in-memory processing and DAG execution.
+
 -> Simulated ML training with cache() showing only the first iteration reads from disk and the rest read from RAM.
+
 -> Removed duplicates using dropDuplicates() on specific columns and verified row counts before and after.
+
 -> Handled nulls using na.drop() to delete rows and na.fill() to replace with defaults, knowing both give different aggregation results.
+
 -> Chained filter(), groupBy() and agg() to compute avg, min, max and stddev across categories in a single pass.
+
 -> Understood that DataFrames are immutable so every transformation returns a new DataFrame and must be reassigned.
+
 -> Learned that wide transformations like groupBy() and join() trigger a Shuffle moving data across the network between executors.
+
 -> Compared inferSchema=True vs explicit schema, saw silent null risks with mixed dates and cast a string column to TimestampType.
+
 -> Built a full pipeline removing duplicates, filling null prices with 0 and grouping by store_id, giving a grand total revenue of $709,924.32.
 
 WEEK-6:
 Summary:
 -> Loaded dataset with multiple columns and handled null values
+
 -> Learned Spark architecture (Driver, Executors, Cluster Manager)
+
 -> Understood lazy evaluation and Catalyst Optimizer
+
 -> Performed transformations like select, filter, rename, and casting
+
 -> Cleaned data by removing nulls and creating new columns
+
 -> Compared CSV vs Parquet (Parquet is faster and optimized)
+
 -> Used filtering and aggregation (sum, avg, count)
+
 -> Wrote data to CSV after filtering
+
 -> Learned Spark writes multiple output files (part files)
+
 -> Practiced optimization techniques like column selection and predicate pushdown
 
 WEEK-7:
