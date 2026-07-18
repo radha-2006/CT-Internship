@@ -1,0 +1,15 @@
+E-COMMERCE DATA QUALITY REPORT
+============================================================
+
+[validate_emails] Found 7 customers with an invalid email address (1.2% of all customers).
+[check_referential_integrity] Found 15 order_items rows referencing an order_id that does not exist in orders.csv. Affected order_ids: [4162, 4484, 4893, 5065, 5320, 5592, 5684, 6798, 7124, 7288, 7307, 7687, 7704, 7823, 7845]
+[extra] 235 order_items rows have negative quantity (interpreted as returns, kept in data but flagged).
+[extra] 0 order_items rows have quantity == 0 (these contribute zero revenue; flagged for review).
+[extra] 35 order_items rows have an out-of-range discount_percent (<0 or >100). These will be CLIPPED to [0, 100] in the cleaned file.
+[clean_orders] Reformatted 239 order_date values that were not in YYYY-MM-DD HH:MM:SS format (mostly DD-MM-YYYY).
+[clean_orders] Found 148 orders with a missing customer_id (4.9% of all orders). These rows are KEPT (an order can still be analyzed) but customer_id is left NULL rather than guessed.
+[clean_products] Normalized 43 product_name values (trimmed whitespace, collapsed internal spaces, applied Title Case).
+[main] Removed 15 orphan order_items rows from the cleaned dataset (they cannot be joined to any real order).
+
+============================================================
+Invalid-email customer_ids (7): [61, 238, 279, 382, 433, 513, 528]

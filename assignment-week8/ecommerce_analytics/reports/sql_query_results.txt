@@ -1,0 +1,311 @@
+E-COMMERCE SQL ANALYSIS - QUERY RESULTS
+(each query's output truncated to first 15 rows for readability)
+==============================================================================
+
+--- 1. Total revenue per category ---
+category | total_revenue
+------------------------------------------------------------------------------
+Clothing | 2101208.17
+Books | 1821622.33
+Home | 1643981.77
+Electronics | 1482479.71
+[4 total row(s)]
+
+--- 2. Top 10 customers by total order value ---
+customer_id | customer_name | total_order_value
+------------------------------------------------------------------------------
+591 | Christopher Nielsen | 34418.17
+546 | Maria Fischer | 34099.26
+152 | Teresa Ramirez | 32241.74
+201 | James Martin | 31321.84
+255 | William Becker | 30678.58
+210 | Luis Bullock | 30444.17
+472 | Samantha Robertson | 29344.62
+63 | Frances Cardenas | 28651.01
+445 | Mrs. Stacey Davis | 28335.84
+169 | Michelle Schmitt | 28261.61
+[10 total row(s)]
+
+--- 3. Month-wise order count for the last 12 months ---
+order_month | order_count
+------------------------------------------------------------------------------
+2024-12 | 6
+2025-01 | 88
+2025-02 | 90
+2025-03 | 74
+2025-04 | 88
+2025-05 | 88
+2025-06 | 78
+2025-07 | 95
+2025-08 | 80
+2025-09 | 96
+2025-10 | 84
+2025-11 | 80
+2025-12 | 98
+[13 total row(s)]
+
+--- 4. Customers who placed orders but never had any item delivered ---
+customer_id | customer_name | total_orders
+------------------------------------------------------------------------------
+182 | Brian Smith | 7
+20 | Linda Burns | 5
+42 | Victoria Valdez | 5
+78 | David Murphy | 4
+306 | Tammy Boone | 4
+343 | Douglas Hartman | 4
+38 | Kevin Mills | 3
+46 | Michael Hoffman | 3
+170 | John Boone | 3
+264 | Tami Salas | 3
+341 | Erin Cook | 3
+389 | Bryce Blair | 3
+447 | Stacey Snyder | 3
+584 | Michael Boyd | 3
+7 | Shannon Ray | 2
+... (34 more rows)
+[49 total row(s)]
+
+--- 5. Products that were ordered but had more returns than purchases ---
+product_id | product_name | units_purchased | units_returned
+------------------------------------------------------------------------------
+[0 total row(s)]
+
+--- 6. Return rate (returned items / total items) per category ---
+category | returned_units | total_units | return_rate_pct
+------------------------------------------------------------------------------
+Home | 176 | 5173 | 3.4
+Clothing | 215 | 6481 | 3.32
+Books | 182 | 5749 | 3.17
+Electronics | 145 | 4917 | 2.95
+[4 total row(s)]
+
+--- 7. Running Totals with Window Functions ---
+region_code | order_date | daily_revenue | running_total
+------------------------------------------------------------------------------
+CENTRAL | 2023-01-01 | 5711.02 | 5711.02
+CENTRAL | 2023-01-02 | 5732.98 | 11444.0
+CENTRAL | 2023-01-03 | 3248.21 | 14692.21
+CENTRAL | 2023-01-04 | 1537.68 | 16229.9
+CENTRAL | 2023-01-05 | 3365.28 | 19595.18
+CENTRAL | 2023-01-06 | 6104.43 | 25699.6
+CENTRAL | 2023-01-09 | 3585.12 | 29284.72
+CENTRAL | 2023-01-11 | 3420.97 | 32705.7
+CENTRAL | 2023-01-12 | 9148.83 | 41854.53
+CENTRAL | 2023-01-15 | 122.03 | 41976.56
+CENTRAL | 2023-01-17 | 13510.28 | 55486.83
+CENTRAL | 2023-01-19 | 500.88 | 55987.71
+CENTRAL | 2023-01-20 | 1146.88 | 57134.59
+CENTRAL | 2023-01-21 | 3100.26 | 60234.85
+CENTRAL | 2023-01-25 | 4424.34 | 64659.19
+... (2326 more rows)
+[2341 total row(s)]
+
+--- 8. Ranking with DENSE_RANK ---
+category | product_name | total_revenue | rank_in_category
+------------------------------------------------------------------------------
+Books | Day Fiction | 72879.5 | 1
+Books | Miss Academic | 59951.49 | 2
+Books | Piece Academic | 58287.39 | 3
+Books | Reality Academic | 56220.67 | 4
+Books | Hand Children | 55575.74 | 5
+Books | Small Fiction | 54006.28 | 6
+Books | Responsibility Children | 53018.78 | 7
+Books | Mrs Children | 42752.96 | 8
+Books | Summer Children | 42189.45 | 9
+Books | Above Children | 40467.68 | 10
+Books | Member Academic | 38892.94 | 11
+Books | North Children | 37534.34 | 12
+Books | Security Non-Fiction | 37392.04 | 13
+Books | Institution Academic | 37349.84 | 14
+Books | Accept Children | 37260.67 | 15
+... (232 more rows)
+[247 total row(s)]
+
+--- 9. LAG/LEAD Analysis ---
+customer_id | order_date | previous_order_date | days_gap
+------------------------------------------------------------------------------
+1.0 | 2023-08-04 19:11:28 | None | None
+1.0 | 2023-11-28 10:01:59 | 2023-08-04 19:11:28 | 115
+1.0 | 2024-07-18 18:29:08 | 2023-11-28 10:01:59 | 233
+1.0 | 2025-07-23 15:36:52 | 2024-07-18 18:29:08 | 369
+1.0 | 2025-12-14 00:03:50 | 2025-07-23 15:36:52 | 143
+2.0 | 2023-01-10 23:21:58 | None | None
+2.0 | 2023-04-13 13:18:48 | 2023-01-10 23:21:58 | 92
+2.0 | 2023-12-28 12:29:29 | 2023-04-13 13:18:48 | 258
+2.0 | 2024-03-17 07:43:57 | 2023-12-28 12:29:29 | 79
+2.0 | 2024-07-29 10:16:32 | 2024-03-17 07:43:57 | 134
+2.0 | 2025-04-02 11:42:19 | 2024-07-29 10:16:32 | 247
+3.0 | 2025-05-18 19:30:32 | None | None
+4.0 | 2023-07-02 14:43:47 | None | None
+4.0 | 2023-09-27 14:09:21 | 2023-07-02 14:43:47 | 86
+4.0 | 2024-09-14 16:43:56 | 2023-09-27 14:09:21 | 353
+... (2837 more rows)
+[2852 total row(s)]
+
+--- 9. LAG/LEAD Analysis ---
+customer_id | avg_days_gap | risk_flag
+------------------------------------------------------------------------------
+554.0 | 1012.1 | At Risk
+305.0 | 929.0 | At Risk
+490.0 | 914.1 | At Risk
+407.0 | 875.7 | At Risk
+167.0 | 728.3 | At Risk
+483.0 | 683.2 | At Risk
+216.0 | 673.5 | At Risk
+553.0 | 644.3 | At Risk
+34.0 | 585.6 | At Risk
+327.0 | 555.9 | At Risk
+492.0 | 552.5 | At Risk
+15.0 | 542.1 | At Risk
+230.0 | 512.7 | At Risk
+400.0 | 511.5 | At Risk
+156.0 | 509.8 | At Risk
+... (550 more rows)
+[565 total row(s)]
+
+--- 10. CTE with Multiple Levels ---
+order_month | revenue_category | customer_count
+------------------------------------------------------------------------------
+2023-01 | Low | 70
+2023-01 | Medium | 10
+2023-02 | Low | 67
+2023-02 | Medium | 7
+2023-03 | Low | 63
+2023-03 | Medium | 8
+2023-04 | Low | 63
+2023-04 | Medium | 11
+2023-05 | High | 1
+2023-05 | Low | 63
+2023-05 | Medium | 5
+2023-06 | Low | 58
+2023-06 | Medium | 8
+2023-07 | Low | 73
+2023-07 | Medium | 3
+... (60 more rows)
+[75 total row(s)]
+
+--- 11. NTILE for Segmentation ---
+customer_id | total_value | quartile | quartile_label
+------------------------------------------------------------------------------
+591.0 | 34418.17 | 1 | Platinum
+546.0 | 34099.26 | 1 | Platinum
+152.0 | 32241.74 | 1 | Platinum
+201.0 | 31321.84 | 1 | Platinum
+255.0 | 30678.58 | 1 | Platinum
+210.0 | 30444.17 | 1 | Platinum
+472.0 | 29344.62 | 1 | Platinum
+63.0 | 28651.01 | 1 | Platinum
+445.0 | 28335.84 | 1 | Platinum
+169.0 | 28261.61 | 1 | Platinum
+47.0 | 27318.88 | 1 | Platinum
+158.0 | 27142.54 | 1 | Platinum
+141.0 | 27037.49 | 1 | Platinum
+488.0 | 26625.12 | 1 | Platinum
+130.0 | 26622.94 | 1 | Platinum
+... (578 more rows)
+[593 total row(s)]
+
+--- 12. Year-over-Year Comparison ---
+year | month | revenue | prev_year_revenue | yoy_growth_percent
+------------------------------------------------------------------------------
+2023 | 1 | 243154.57 | None | None
+2023 | 2 | 182587.98 | None | None
+2023 | 3 | 175186.09 | None | None
+2023 | 4 | 205751.12 | None | None
+2023 | 5 | 170347.19 | None | None
+2023 | 6 | 172183.1 | None | None
+2023 | 7 | 186122.46 | None | None
+2023 | 8 | 243616.0 | None | None
+2023 | 9 | 134279.34 | None | None
+2023 | 10 | 221315.13 | None | None
+2023 | 11 | 174582.23 | None | None
+2023 | 12 | 189737.32 | None | None
+2024 | 1 | 168941.91 | 243154.57 | -30.52
+2024 | 2 | 177956.25 | 182587.98 | -2.54
+2024 | 3 | 184967.72 | 175186.09 | 5.58
+... (21 more rows)
+[36 total row(s)]
+
+--- 13. First/Last Value Analysis ---
+customer_id | first_category | last_category | category_shift
+------------------------------------------------------------------------------
+1.0 | Clothing | Clothing | No
+2.0 | Books | Electronics | Yes
+3.0 | Home | Home | No
+4.0 | Clothing | Electronics | Yes
+5.0 | Clothing | Home | Yes
+6.0 | Home | Electronics | Yes
+7.0 | Clothing | Clothing | No
+8.0 | Books | Home | Yes
+9.0 | Electronics | Electronics | No
+10.0 | Books | Books | No
+11.0 | Books | Books | No
+12.0 | Books | Electronics | Yes
+13.0 | Home | Books | Yes
+14.0 | Electronics | Books | Yes
+15.0 | Books | Home | Yes
+... (578 more rows)
+[593 total row(s)]
+
+--- 14. Cumulative Distribution ---
+customer_id | revenue | cumulative_revenue | cumulative_percent
+------------------------------------------------------------------------------
+591.0 | 34418.17 | 34418.17 | 0.51
+546.0 | 34099.26 | 68517.43 | 1.02
+152.0 | 32241.74 | 100759.17 | 1.5
+201.0 | 31321.84 | 132081.01 | 1.97
+255.0 | 30678.58 | 162759.59 | 2.43
+210.0 | 30444.17 | 193203.76 | 2.88
+472.0 | 29344.62 | 222548.38 | 3.32
+63.0 | 28651.01 | 251199.4 | 3.75
+445.0 | 28335.84 | 279535.24 | 4.17
+169.0 | 28261.61 | 307796.84 | 4.6
+47.0 | 27318.88 | 335115.72 | 5.0
+158.0 | 27142.54 | 362258.27 | 5.41
+141.0 | 27037.49 | 389295.76 | 5.81
+488.0 | 26625.12 | 415920.88 | 6.21
+130.0 | 26622.94 | 442543.81 | 6.61
+... (578 more rows)
+[593 total row(s)]
+
+--- 15. Complex CTE: Cohort Analysis ---
+cohort_month | month_offset | active_customers | cohort_customers | retention_rate_pct
+------------------------------------------------------------------------------
+2023-01 | 0 | 3 | 16 | 18.75
+2023-01 | 1 | 1 | 16 | 6.25
+2023-01 | 2 | 1 | 16 | 6.25
+2023-02 | 0 | 1 | 12 | 8.33
+2023-02 | 1 | 3 | 12 | 25.0
+2023-02 | 2 | 1 | 12 | 8.33
+2023-02 | 3 | 3 | 12 | 25.0
+2023-03 | 0 | 4 | 20 | 20.0
+2023-03 | 2 | 1 | 20 | 5.0
+2023-03 | 3 | 1 | 20 | 5.0
+2023-04 | 0 | 2 | 17 | 11.76
+2023-04 | 1 | 1 | 17 | 5.88
+2023-04 | 3 | 2 | 17 | 11.76
+2023-05 | 0 | 3 | 15 | 20.0
+2023-05 | 1 | 2 | 15 | 13.33
+... (107 more rows)
+[122 total row(s)]
+
+--- 16. Self-Join with Window Function ---
+customer_id | current_order_id | current_order_date | current_order_value | previous_order_id | previous_order_value | spend_trend
+------------------------------------------------------------------------------
+1.0 | 486 | 2023-08-04 19:11:28 | 4956.51 | None | None | First Order
+1.0 | 2552 | 2023-11-28 10:01:59 | 2935.13 | 486 | 4956.51 | Decreased
+1.0 | 1062 | 2024-07-18 18:29:08 | 5.33 | 2552 | 2935.13 | Decreased
+1.0 | 49 | 2025-07-23 15:36:52 | 4048.21 | 1062 | 5.33 | Increased
+1.0 | 1985 | 2025-12-14 00:03:50 | 208.66 | 49 | 4048.21 | Decreased
+2.0 | 1004 | 2023-01-10 23:21:58 | 747.42 | None | None | First Order
+2.0 | 2477 | 2023-04-13 13:18:48 | 108.83 | 1004 | 747.42 | Decreased
+2.0 | 444 | 2023-12-28 12:29:29 | 6802.91 | 2477 | 108.83 | Increased
+2.0 | 2849 | 2024-03-17 07:43:57 | 4498.9 | 444 | 6802.91 | Decreased
+2.0 | 584 | 2024-07-29 10:16:32 | 1595.21 | 2849 | 4498.9 | Decreased
+2.0 | 2958 | 2025-04-02 11:42:19 | 1504.66 | 584 | 1595.21 | Decreased
+3.0 | 624 | 2025-05-18 19:30:32 | 1696.08 | None | None | First Order
+4.0 | 429 | 2023-07-02 14:43:47 | 1487.32 | None | None | First Order
+4.0 | 2051 | 2023-09-27 14:09:21 | 0.0 | 429 | 1487.32 | Decreased
+4.0 | 1134 | 2024-09-14 16:43:56 | 2447.52 | 2051 | 0.0 | Increased
+... (2837 more rows)
+[2852 total row(s)]
